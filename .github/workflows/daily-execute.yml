@@ -7,7 +7,7 @@ on:
   push:
     # Optionally specify branches if needed
     branches:
-      - master  # Change 'master' to the default branch of your repository if it's different
+      - main  # Change 'master' to the default branch of your repository if it's different
 
 permissions:
   contents: write    # cho phép push changes back to repo
