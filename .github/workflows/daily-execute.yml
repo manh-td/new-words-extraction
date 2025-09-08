@@ -20,9 +20,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install dependencies for Google API
+      - name: Install dependencies for Python 1
         run: |
-          pip install -r requirements.txt
+          pip install google-search-results
+
+      - name: Install dependencies for Python 2
+        run: |
+          pip install serpapi
 
       - name: Execute script
         env:
