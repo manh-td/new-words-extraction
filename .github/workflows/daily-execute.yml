@@ -41,7 +41,7 @@ jobs:
 
       - name: Add changes to git
         run: |
-          git add README.md ./data
+          git add .
 
       - name: Commit changes
         run: |
