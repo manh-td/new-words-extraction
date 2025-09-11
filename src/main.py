@@ -17,26 +17,27 @@ def handle_search_result(word:str, result:dict) -> None:
     if answer_box.get("type") != "dictionary_results":
         return {}
 
-    print(json.dumps(answer_box, indent=4))
+    # print(json.dumps(answer_box, indent=4))
 
     definition = answer_box.get("definitions", [])
     string_definition = ""
     for index, defi in enumerate(definition):
         string_definition += f"\t{index + 1}. {defi}\n"
-    syllables = answer_box.get("examples", [])[0]
+    syllables = answer_box.get("syllables", [])
+    phonetic = answer_box.get("phonetic", "")
     word_type = answer_box.get("word_type")
-    examples = answer_box.get("examples", [])[1:]
+    examples = answer_box.get("examples", [])
     string_example = ""
     for index, example in enumerate(examples):
         if index % 2 == 0:
             string_example += f"{example} - "
         else:
             string_example += f"{example}\n"
-    synonyms = []
+    synonyms = answer_box.get("extras", [])
     antonyms = []
 
     return {
-        "column_a": f"{word} {syllables}\n{string_example}",
+        "column_a": f"{word} {phonetic} {syllables}\n{string_example}",
         "column_b": f"Part of Speech: {word_type}\nDefinition:\n{string_definition}\nSynonyms: {', '.join(synonyms)}\nAntonyms: {', '.join(antonyms)}",
     }
 
