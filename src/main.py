@@ -3,12 +3,20 @@ import os
 import requests
 import json
 import csv
+from pathlib import Path
 
 def search(keyword:str) -> dict:
+    cache_path = Path("./cache") / keyword
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    if cache_path.exists():
+        with open(cache_path, 'r') as f:
+            return json.load(f)
     search = serpapi.search({
         "q": keyword,
         "api_key": os.getenv("SERPAPI_API_KEY")
     })
+    with open(cache_path, 'w') as f:
+        json.dump(search, f)
     return search
 
 def handle_search_result(word:str, result:dict) -> None:

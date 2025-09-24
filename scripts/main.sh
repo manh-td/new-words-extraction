@@ -1,3 +1,3 @@
 #!/bin/bash
 
-SERPAPI_API_KEY="xxx" python -m src.main
+SERPAPI_API_KEY="xxx" python -B -m src.main
