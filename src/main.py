@@ -16,7 +16,7 @@ def search(keyword:str) -> dict:
         "api_key": os.getenv("SERPAPI_API_KEY")
     })
     with open(cache_path, 'w') as f:
-        json.dump(search, f)
+        json.dump(search.as_dict(), f)
     return search
 
 def handle_search_result(word:str, result:dict) -> None:
