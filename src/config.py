@@ -23,6 +23,6 @@ Format your response as pure JSON with keys exactly like this:
     "antonyms": ["..."]
 }}
 """
-LLM_TIMEOUT = 3 * 60
+LLM_TIMEOUT = 5 * 60
 NEW_WORD_URL = "https://raw.githubusercontent.com/manh-td/new-words/refs/heads/main/words.txt"
 OUTPUT_FILE = "output.csv"
