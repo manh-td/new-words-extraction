@@ -1,0 +1,19 @@
+{
+  "phonetic": "/ˌhaɪpəˈreid/",
+  "word_type": "noun",
+  "definitions": [
+    "In graph theory, a hyperedge is an edge that can connect more than two vertices."
+  ],
+  "examples": [
+    "The resulting subgraph contained several triplets and quadruplets of friends as well as complex hyperedges.",
+    "Hypergraphs are useful in representing certain kinds of relationships where a simple graph cannot capture the complexity due to multiple connections among entities."
+  ],
+  "synonyms": [
+    "complex connection",
+    "multi-vertex edge"
+  ],
+  "antonyms": [
+    "simple edge",
+    "binary relation"
+  ]
+}
