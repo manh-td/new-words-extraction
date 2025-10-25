@@ -1,0 +1,44 @@
+{
+  "phonetic": "/sti:p/",
+  "word_type": "adjective, noun, verb (noun)",
+  "definitions": [
+    {
+      "definition": "a steep hill or cliff"
+    },
+    {
+      "definition": "describes a sharp incline in something'thoroughly difficult to ascend",
+      "contextual_example": "'The final leg of the hike was on such a steep slope that many gave up.'"
+    },
+    {
+      "definition": "a process or activity requiring rapid learning and adaptation, often used in business or personal development contexts.",
+      "example": "'Completing my PhD within one year is no joke – it's going to be a steep climb!'."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "'After the storm, the mountainside looked like an enormous wall of jagged rock.'"
+    },
+    {
+      "sentence": "'The narrow road to our mountain cabin was so steep that we had to stop several times on inclines and declines alike.’"
+    }
+  ],
+  "synonyms": [
+    {
+      "word": "abrupt"
+    },
+    {
+      "word": "inclined"
+    },
+    {
+      "word": "sharp"
+    }
+  ],
+  "antonyms": [
+    {
+      "word": "gentle"
+    },
+    {
+      "word": "gradual"
+    }
+  ]
+}

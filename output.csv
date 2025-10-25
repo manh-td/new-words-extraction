@@ -1,11 +1,12 @@
 column_a,column_b
-"hello 
+"hello /hɛloʊ/
 Examples:
-","Part of Speech: 
+Hello, how are you today?
+I just saw her at the grocery store. Hello!","Part of Speech: interjection
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. a common greeting used when meeting someone
+Synonyms: hi, greetings, hey, good day
+Antonyms: farewell, see you later"
 "luck /ˈlʌk/,
 Examples:
 She felt lucky to have won a free ticket in the raffle.
@@ -19,7 +20,41 @@ Antonyms: unluckiness"
 Examples:
 ","Part of Speech: 
 Definition:
-	1. (Timeout while querying local LLM)
+	1. ```json
+{
+    ""phonetic"": ""[duh-k]"",
+    ""word_type"": ""noun, verb"",
+    ""definitions"": [
+        {
+            ""definition1"": ""A waterbird with a broad blunt bill, short legs and webbed feet.""
+        },
+        {
+            ""definition2"": ""To lower the head or body quickly to avoid being seen; move in a low manner designed for concealment from predators.""
+        }
+    ],
+    ""examples"": [
+        {
+            ""example1"": ""The mother duck waddled across the lawn with her ducklings following closely behind.""
+        },
+        {
+            ""example2"": ""While crossing through the park, he had to quickly duck as a bicyclist came speeding past.""
+        }
+    ],
+    ""synonyms"": [
+        {
+            ""synonym1"": ""dabbling bird""
+        },
+        {
+            ""synonym2"": ""waterfowl""
+        }
+    ],
+    ""antonyms"": [
+        {
+            ""antonym1"": ""Elevation"", since ducks lower themselves to avoid detection.
+        }
+    ]
+}
+```
 Synonyms: 
 Antonyms: "
 "sanitize /ˈseɪnɪˌlaɪz/
@@ -54,18 +89,53 @@ Definition:
 	1. (Timeout while querying local LLM)
 Synonyms: 
 Antonyms: "
-"verbatim 
+"verbatim /ˈvərˌbeɪtᵊm/
 Examples:
-","Part of Speech: 
+She quoted the article 'verbatim', so I could easily reference it.
+The witness's testimony was given verbatim, ensuring an accurate record of his statements.","Part of Speech: adverb
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. exactly as stated or written; without change.
+Synonyms: word for word, exactly as stated
+Antonyms: paraphrased, liberally interpreted without exact replication"
 "Prima-facie 
 Examples:
 ","Part of Speech: 
 Definition:
-	1. (Timeout while querying local LLM)
+	1. ```json
+
+{
+    ""phonetic"": ""/ˈpraɪməfɪə/,"",
+    ""word_type"": ""adjective, noun (as a legal term)"",
+    ""definitions"": [
+        {""definition"": ""Apparent on the face of it; presumptively sufficient.""},
+        {
+            ""definition"": ""In law: evidence or testimony that appears to justify a verdict without further investigation."",
+            ""part_of_speech"": ""adjective""
+        },
+        {
+            ""definition"": ""A case prima facie is one in which the facts are sufficient to establish each party'ths claim unless rebutted by contrary evidence at trial.""
+            ""part_of_speech"": ""noun"",
+            ""example"": ""The defendant had no defense; it was a clear case of battery, prima facie""
+        }
+    ],
+    ""examples"": [
+        {""sentence"": ""There is enough evidence to make the charge seem prima facie.""},
+        {
+            ""sentence"": ""Despite his denials, there were facts that established it as a clear case of malice."",
+            ""part_of_speech"": ""noun""
+        }
+    ],
+    ""synonyms"": [
+        {""word"": ""apparent"", ""example_usage"": """"},
+        {
+            ""word"": ""self-evident"", 
+            ""example_usage"": ""The situation appeared self-evidently wrong.""
+        }
+    ],
+    ""antonyms"": [""incontrovertible""]
+}
+
+```
 Synonyms: 
 Antonyms: "
 "hyperedge /ˌhaɪpəˈreid/
@@ -76,18 +146,36 @@ Definition:
 	1. In graph theory, a hyperedge is an edge that can connect more than two vertices.
 Synonyms: complex connection, multi-vertex edge
 Antonyms: simple edge, binary relation"
-"convolution 
+"convolution /ˌkɒn.vjuˈloʊn/
 Examples:
-","Part of Speech: 
+The convolution theorem simplifies the process of solving differential equations.
+Understanding human thought processes is often as much about deconvolution as about comprehension itself.","Part of Speech: noun
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. a complicated thing that is hard to understand or deal with, especially because of its intricate construction.
+	2. the action of making a mathematical expression more complex by adding extra terms within it.
+Synonyms: complication, confusion
+Antonyms: clarification, simplification"
 "multilateral 
 Examples:
 ","Part of Speech: 
 Definition:
-	1. (Timeout while querying local LLM)
+	1. ```json
+{
+    ""phonetic"": ""/ˌmʌltɪˈleɪtərəl/"",
+    ""word_type"": ""adjective"",
+    ""definitions"": [
+        ""involving more than two nations or groups of nations, especially in a political context""
+    ],
+    ""examples"": [
+        ""The multilateral treaty was signed by representatives from over 50 countries."",
+        ""A summit for discussing environmental policies has been scheduled as an effort towards multilateral cooperation.""
+    ],
+    ""synonyms"": [
+        ""international"",
+        ""collaborative""
+    ],
+    ""antonyms"": [
+        ""unilateral""
 Synonyms: 
 Antonyms: "
 "analogous 
@@ -137,20 +225,22 @@ Definition:
 }
 Synonyms: 
 Antonyms: "
-"subservience 
+"subservience /ˌsʌɪbzəˈvɪʒ(ə)n/
 Examples:
-","Part of Speech: 
+The servant showed his complete *subservience* to the wealthy landowner.
+Her actions were driven by a sense of deep-seated *subservience* towards society'ty standards.","Part of Speech: noun
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"lament 
+	1. the quality of being subservient; obedience or servility
+Synonyms: obedience, servility
+Antonyms: independence, resistance"
+"lament /ˈlæm.ɪn.ət/
 Examples:
-","Part of Speech: 
+She lamented the loss of her cherished dog.
+The choir'neried in a passionate rendition, their voices rising and falling with each verse.","Part of Speech: verb
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. to express grief or sorrow over (something).
+Synonyms: regret, mourn
+Antonyms: celebrate"
 "dreading 
 Examples:
 ","Part of Speech: 
@@ -171,7 +261,39 @@ Antonyms: "
 Examples:
 ","Part of Speech: 
 Definition:
-	1. (Timeout while querying local LLM)
+	1. ```json
+{
+    ""phonetic"": ""/ˈsaɪ.nɪks/"",
+    ""word_type"": ""Noun, Plural"",
+    ""definitions"": [
+        ""People who believe that human motives are primarily or often self-interested rather than altruistic.""
+    ],
+    ""examples"": [""The old man was a cynic and believed no one ever helped him."", ""Cynics would argue that charity events were just for show.""],
+    ""synonyms"": [
+        ""Skeptics"",
+        ""Pessimists""
+    ],
+    ""antonyms"": [
+        ""Optimists"",
+thrilled to see the cat finally catching its prey after a long chase. The hunter watched with amusement, knowing that even cynics have moments of joy."" Laughter filled the air as friends gathered around, sharing stories and smiles despite their differing outlooks on life._cynicism is such an inexhaustible wellspring for comedy."",
+    ""examples"": [
+        {
+            ""sentence"": ""The critic was a cynic who doubted the sincerity of every artist's intentions.""
+        },
+        {
+            ""sentence"": ""Her friends often tried to cheer her up, but she remained unconvinced that kindness existed in people beyond self-interest.""
+        }
+    ],
+    ""synonyms"": [
+        ""Skeptic"",
+        ""Pessimist""
+    ],
+    ""antonyms"": [
+        ""Optimist"",
+        ""Mutualism believer""
+    ]
+}
+```
 Synonyms: 
 Antonyms: "
 "conducive /ˈkɒndjuːəsf/
@@ -191,74 +313,111 @@ Definition:
 	2. to keep alive in memory or practice.
 Synonyms: repeated, recurrent, continuous
 Antonyms: end, cease, terminate"
-"treatise 
+"treatise /triːˈtiz/,
 Examples:
-","Part of Speech: 
+The philosopher'senounced his latest treatise in front of an audience at Harvard University.
+His doctoral dissertation can be considered as one formidable economic treatise on market behavior during crises.","Part of Speech: noun
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"acquisition 
+	1. A formal and systematic written discourse on a particular subject, typically with the goal of providing information or argument.
+Synonyms: discourse, study
+Antonyms: misinformation"
+"acquisition /ˌækjʊˈzeɪʃn/
 Examples:
-","Part of Speech: 
+After years of research and development, the company made an important acquisition in medical imaging technology.
+He has been working on his math skills since childhood; he is proud that by high school, he had acquired calculus knowledge.","Part of Speech: noun
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. The act or process of acquiring something, typically knowledge or property.
+	2. An addition to one' end of a sequence.
+Synonyms: purchase, incorporation, admission
+Antonyms: loss, divestment, dispossession"
 "detriments 
 Examples:
 ","Part of Speech: 
 Definition:
-	1. (Timeout while querying local LLM)
+	1. ```json
+{
+    ""phonetic"": ""/dɪˈtrimənts/"",
+    ""word_type"": ""noun"",
+    ""definitions"": [
+        ""Negative effects or disadvantages""
+    ],
+    ""examples"": [
+        ""The new tax law had several economic detriments."",
+        ""She was concerned about the potential health risks, which were significant drawbacks of moving to a highly polluted city.""
+    ],
+    ""synonyms"": [
+        ""disadvantages"", 
+        ""setbacks"", 
+destabilize""
+    ],
+    ""antonyms"": [""benefits"", ""advancements""]
+}
+```
 Synonyms: 
 Antonyms: "
-"unalienable 
+"unalienable /ˌʌn.əˈliː.i.ə.b(ə)l/
 Examples:
-","Part of Speech: 
+The right to free speech is an unalienable freedom.
+Human dignity, love for one'th neighbor are also considered as unalienable rights by many constitutions worldwide.","Part of Speech: adjective
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"articulate 
+	1. Essential to life and liberty; incapable of being taken away or denied.
+Synonyms: inalienable, intrinsic
+Antonyms: alienable, voluntary surrender"
+"audacious /ˈɔːdʒəˌeɪ.ʃəs/
 Examples:
-","Part of Speech: 
+The firefigthy acrobat's audacious stunts astounded the audience.
+With her infectious laugh, she displayed an utterly audacious spirit.","Part of Speech: adjective
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"audacious 
+	1. remarkably bold; extremely daring or fearless
+Synonyms: bold, daring, brave, risky
+Antonyms: timid, cowardly, meek, shy"
+"rally /ˈreɪəli/, /ˈrælli/
 Examples:
-","Part of Speech: 
+They organized a political rally in the city square last weekend.
+After losing his job, he took part in a corporate survival rally to regain confidence.","Part of Speech: verb and noun
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"rally 
+	1. {'definition1': 'a gathering or demonstration in which people express a political, social, or moral opinion.'}
+	2. {'definition2': ""an act of rallying (someone) to support one'self after having failed; an attempt at self-recovery and determination.""}
+Synonyms: assembly, meeting
+Antonyms: dismissal, desertion"
+"dizzying /ˈdaɪzliːŋ/
 Examples:
-","Part of Speech: 
+The dizzying heights of the roller coaster left riders feeling nauseous.
+After losing her keys, she experienced a dizzying round of panic and searching before finding them in an unexpected place.","Part of Speech: adjective
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"dizzying 
-Examples:
-","Part of Speech: 
-Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"steep 
-Examples:
-","Part of Speech: 
-Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. causing a spinning sensation or confusion; disoriented.
+Synonyms: dizziness-inducing, overwhelming
+Antonyms: steady, reassuring"
 "insidious 
 Examples:
 ","Part of Speech: 
 Definition:
-	1. (Timeout while querying local LLM)
+	1. ```json
+
+{
+    ""phonetic"": ""/ˌɪnsaɪˈdɪʃuəs/"",
+    ""word_type"": ""adjective"",
+    ""definitions"": [
+        ""treacherous; secretly harmful or destructive""
+    ],
+    ""examples"": [
+        ""The insidious spread of the disease was alarming."",
+        ""His plans were so cunning and deceptive.""
+    ],
+    ""synonyms"": [
+        ""treacherous"",
+        ""deceitful"",
+intrusive,
+        ""subtle""
+    ],
+    ""antonyms"": [
+        ""innocuous"",
+        ""harmless"",
+        ""beneficial""
+    ]
+}
+
+```
 Synonyms: 
 Antonyms: "
 "primacy /ˈprɪməsi/
@@ -285,20 +444,23 @@ Definition:
 	1. agreeing to or obeyed an idea, rule, or convention especially relating to dress and personal style.
 Synonyms: conformist, traditional
 Antonyms: nonconformist, innovative"
-"ingrained 
+"ingrained /ˌɪnˈɡreɪnd/
 Examples:
-","Part of Speech: 
+His views on the matter were so ingrained that he refused any counterarguments.
+It took many years for her cultural habits not to be an ingrained part of daily life.","Part of Speech: adjective
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"zeitgeist 
+	1. so deeply rooted that it is difficult to change
+Synonyms: deeply rooted, entrenched
+Antonyms: shallowly planted"
+"zeitgeist /ˈʣaɪtsˌɡeɪst/
 Examples:
-","Part of Speech: 
+The Baroque movement was heavily influenced by the zeitgeist of absolute monarchy prevailin...
+In her novel, she captured perfectly the essence of contemporary societal zeitgeist concerning environmental consciousness and activism.","Part of Speech: noun
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. The defining spirit or mood of a particular period of history as shown by the ideas and beliefs in art, culture, politics, education, and other aspects of society.
+	2. A distinctive atmosphere that defines an era.
+Synonyms: spirit of the age, mood of the times
+Antonyms: outdated ideology, regressive mindset"
 "sheepishly /ʃiˈpɪsli/
 Examples:
 She left the room sheepishly after her presentation was interrupted.
@@ -315,13 +477,14 @@ Definition:
 	1. knowledge of future events before they happen; foreknowledge
 Synonyms: foresight, foreknowledge
 Antonyms: ignorance of the future"
-"intimidating 
+"intimidating /ˌɪntaɪˈmɪdʒərɪŋ/
 Examples:
-","Part of Speech: 
+The imposing figure of the celebrity at the party was quite intimidating.
+Her argument, though persuasidearly validated by facts, had an intimidating tone that silenced many.","Part of Speech: adjective
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. causing fear or anxiety; ominous in appearance
+Synonyms: frightening, daunting
+Antonyms: reassuring, encouraging"
 "vibrant /ˈvraɪ.ənt/
 Examples:
 The artist's palette was a display of remarkably vibrant shades.
@@ -334,7 +497,44 @@ Antonyms: dull, flat"
 Examples:
 ","Part of Speech: 
 Definition:
-	1. (Timeout while querying local LLM)
+	1. ```json
+
+{
+
+    ""phonetic"": ""/string-zent/"",
+
+    ""word_type"": ""adjective"",
+
+    ""definitions"": [
+
+        ""imposing strict requirements or demands; rigorous""
+
+    ],
+
+    ""examples"": [
+
+        ""The company implemented stringent safety protocols."",
+
+        ""She received a fine for violating the traffic rules, which were quite stringent.""
+
+    ],
+
+    ""synonyms"": [
+
+        ""rigorous"", 
+
+        ""exacting"", 
+
+        ""demanding""
+
+    ],
+
+    ""antonyms"": [
+
+        ""lax"", 
+
+        ""lenient"", 
+nervously, I am in need of assistance formulating a comprehensive research proposal that examines the impact of social media usage on academic performance among high school students. The study should be longitudinal and incorporate both qualitative and quantitative methods with appropriate data collection techniques such as surveys and interviews along with statistical analysis like regression models to identify correlations or causations between variables. This complex proposal must take into account the ethical considerations of researching minors, include a detailed literature review section that synthesizes previous findings while highlighting gaps my study will fill, propose an innovative methodology for engaging with participants and ensuring data reliability despite potential technological limitations in their environment. Furthermore, it should also outline the expected challenges during this research period such as attrition rates or consent issues due to parental concerns about social media exposure while offering strategic solutions to mitigate these problems without compromising on study integrity. Include a realistic timeline and budget projection that aligns with academic standards for funding proposals, ensuring the inclusion of justifiable expenses such as incentives for participants or costs related to securing digital consent forms from parents/guardians while keeping within reason given my university's modest grant offerings. Also provide potential avenues for dissemination that will reach educational stakeholders and contribute meaningfully to the academic community, considering open-access journals as well as conferences with active discourse on education technology ethics
 Synonyms: 
 Antonyms: "
 "portfolio /ˈpɔr.tjə.foʊ/
@@ -354,13 +554,15 @@ Definition:
 	1. to stick to something or someone as a rule; show loyalty.
 Synonyms: stick, fasten, attach, conform, comply
 Antonyms: remove, detach, separate, rebel, defy"
-"sparingly 
+"sparingly /spɔːˈræɪli/
 Examples:
-","Part of Speech: 
+She dresses sparingly to conserve her money
+He spoke his words sparingly in order to keep a secret","Part of Speech: adverb
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. In a way that is not wasteful; using or dealing with only as much of something as necessary.
+	2. Used sparingly, little by little.
+Synonyms: economically, frugally, scrupulously, prudently, restrainedly
+Antonyms: wastefully, lavishly, extravagantly"
 "ubiquity /juːˈbɪkwɪti/
 Examples:
 The ubiquity of smartphones has led to a constant connected society.
@@ -378,10 +580,12 @@ Definition:
 	2. of a substance that easily shatters when struck
 Synonyms: fragile, frail
 Antonyms: flexible, resilient"
-"atomicity 
+"atomicity /ˌæt.ɪˈmɒk.ɪ.ti/
 Examples:
-","Part of Speech: 
+Carbon has an atomicity of four because it forms tetrahedral structures at room temperature and standard pressure.
+Water's atomicity is three, as each water molecule consists of two hydrogen atoms covalently bonded to one oxygen atom.","Part of Speech: noun
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. The quality of being indivisible and unique to the smallest unit of a chemical element.
+	2. In physics, atomicity refers to the number of atoms in a molecule.
+Synonyms: indivisibility, atomic-ness
+Antonyms: divisibility, aggregacy"

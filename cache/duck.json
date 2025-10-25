@@ -1,0 +1,5 @@
+{
+  "definitions": [
+    "```json\n{\n    \"phonetic\": \"[duh-k]\",\n    \"word_type\": \"noun, verb\",\n    \"definitions\": [\n        {\n            \"definition1\": \"A waterbird with a broad blunt bill, short legs and webbed feet.\"\n        },\n        {\n            \"definition2\": \"To lower the head or body quickly to avoid being seen; move in a low manner designed for concealment from predators.\"\n        }\n    ],\n    \"examples\": [\n        {\n            \"example1\": \"The mother duck waddled across the lawn with her ducklings following closely behind.\"\n        },\n        {\n            \"example2\": \"While crossing through the park, he had to quickly duck as a bicyclist came speeding past.\"\n        }\n    ],\n    \"synonyms\": [\n        {\n            \"synonym1\": \"dabbling bird\"\n        },\n        {\n            \"synonym2\": \"waterfowl\"\n        }\n    ],\n    \"antonyms\": [\n        {\n            \"antonym1\": \"Elevation\", since ducks lower themselves to avoid detection.\n        }\n    ]\n}\n```"
+  ]
+}

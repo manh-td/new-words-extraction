@@ -1,0 +1,5 @@
+{
+  "definitions": [
+    "```json\n{\n    \"phonetic\": \"/dɪˈtrimənts/\",\n    \"word_type\": \"noun\",\n    \"definitions\": [\n        \"Negative effects or disadvantages\"\n    ],\n    \"examples\": [\n        \"The new tax law had several economic detriments.\",\n        \"She was concerned about the potential health risks, which were significant drawbacks of moving to a highly polluted city.\"\n    ],\n    \"synonyms\": [\n        \"disadvantages\", \n        \"setbacks\", \ndestabilize\"\n    ],\n    \"antonyms\": [\"benefits\", \"advancements\"]\n}\n```"
+  ]
+}

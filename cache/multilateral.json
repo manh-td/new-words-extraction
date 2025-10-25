@@ -1,0 +1,5 @@
+{
+  "definitions": [
+    "```json\n{\n    \"phonetic\": \"/ˌmʌltɪˈleɪtərəl/\",\n    \"word_type\": \"adjective\",\n    \"definitions\": [\n        \"involving more than two nations or groups of nations, especially in a political context\"\n    ],\n    \"examples\": [\n        \"The multilateral treaty was signed by representatives from over 50 countries.\",\n        \"A summit for discussing environmental policies has been scheduled as an effort towards multilateral cooperation.\"\n    ],\n    \"synonyms\": [\n        \"international\",\n        \"collaborative\"\n    ],\n    \"antonyms\": [\n        \"unilateral\""
+  ]
+}

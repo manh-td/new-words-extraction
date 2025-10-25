@@ -1,0 +1,5 @@
+{
+  "definitions": [
+    "```json\n\n{\n    \"phonetic\": \"/ˌɪnsaɪˈdɪʃuəs/\",\n    \"word_type\": \"adjective\",\n    \"definitions\": [\n        \"treacherous; secretly harmful or destructive\"\n    ],\n    \"examples\": [\n        \"The insidious spread of the disease was alarming.\",\n        \"His plans were so cunning and deceptive.\"\n    ],\n    \"synonyms\": [\n        \"treacherous\",\n        \"deceitful\",\nintrusive,\n        \"subtle\"\n    ],\n    \"antonyms\": [\n        \"innocuous\",\n        \"harmless\",\n        \"beneficial\"\n    ]\n}\n\n```"
+  ]
+}
