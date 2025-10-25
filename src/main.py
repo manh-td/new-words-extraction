@@ -1,78 +1,124 @@
-import serpapi
-import os
 import requests
 import json
 import csv
 from pathlib import Path
+import subprocess
 
-def search(keyword:str) -> dict:
-    cache_path = Path("./cache") / keyword
-    cache_path.parent.mkdir(parents=True, exist_ok=True)
+CACHE_DIR = Path("./cache")
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+def query_llm(word: str, model: str = "phi3:mini") -> dict:
+    """
+    Query a local LLM (via Ollama) for a definition, examples, and synonyms.
+    Uses local cache to avoid repeated queries.
+    """
+    cache_path = CACHE_DIR / f"{word.lower()}.json"
     if cache_path.exists():
-        with open(cache_path, 'r') as f:
+        with open(cache_path, "r", encoding="utf-8") as f:
             return json.load(f)
-    search = serpapi.search({
-        "q": keyword,
-        "api_key": os.getenv("SERPAPI_API_KEY")
-    })
-    with open(cache_path, 'w') as f:
-        json.dump(search.as_dict(), f)
-    return search
 
-def handle_search_result(word:str, result:dict) -> None:
-    answer_box = result.get("answer_box", {})
+    prompt = f"""
+    You are an English dictionary assistant.
+    Define the word "{word}" clearly and concisely.
+    Include:
+    - Part of speech
+    - Phonetic transcription (if known)
+    - Short definition(s)
+    - Two example sentences
+    - Common synonyms and antonyms
 
-    if answer_box.get("type") != "dictionary_results":
+    Format your response as pure JSON with keys exactly like this:
+    {{
+      "phonetic": "...",
+      "word_type": "...",
+      "definitions": ["..."],
+      "examples": ["..."],
+      "synonyms": ["..."],
+      "antonyms": ["..."]
+    }}
+    """
+
+    print(f"🧠 Querying LLM for: {word}")
+    try:
+        result = subprocess.run(
+            ["ollama", "run", model, prompt],
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        output = result.stdout.strip()
+
+        # Try to extract JSON safely
+        try:
+            json_start = output.find("{")
+            json_end = output.rfind("}") + 1
+            parsed = json.loads(output[json_start:json_end])
+        except Exception:
+            parsed = {"definitions": [output]}
+
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(parsed, f, ensure_ascii=False, indent=2)
+
+        return parsed
+
+    except subprocess.TimeoutExpired:
+        return {"definitions": ["(Timeout while querying local LLM)"]}
+    except Exception as e:
+        return {"definitions": [f"(Error: {e})"]}
+
+
+def handle_llm_result(word: str, result: dict) -> dict:
+    try:
+        phonetic = result.get("phonetic", "")
+        word_type = result.get("word_type", "")
+        definitions = result.get("definitions", [])
+        examples = result.get("examples", [])
+        synonyms = result.get("synonyms", [])
+        antonyms = result.get("antonyms", [])
+
+        string_definition = "\n".join([f"\t{i+1}. {d}" for i, d in enumerate(definitions)])
+        string_example = "\n".join(examples)
+
+        return {
+            "column_a": f"{word} {phonetic}\nExamples:\n{string_example}",
+            "column_b": f"Part of Speech: {word_type}\nDefinition:\n{string_definition}\nSynonyms: {', '.join(synonyms)}\nAntonyms: {', '.join(antonyms)}",
+        }
+    except Exception as e:
         return {}
 
-    # print(json.dumps(answer_box, indent=4))
-
-    definition = answer_box.get("definitions", [])
-    string_definition = ""
-    for index, defi in enumerate(definition):
-        string_definition += f"\t{index + 1}. {defi}\n"
-    syllables = answer_box.get("syllables", [])
-    phonetic = answer_box.get("phonetic", "")
-    word_type = answer_box.get("word_type")
-    examples = answer_box.get("examples", [])
-    string_example = ""
-    for index, example in enumerate(examples):
-        if index % 2 == 0:
-            string_example += f"{example} - "
-        else:
-            string_example += f"{example}\n"
-    synonyms = answer_box.get("extras", [])
-    antonyms = []
-
-    return {
-        "column_a": f"{word} {phonetic} {syllables}\n{string_example}",
-        "column_b": f"Part of Speech: {word_type}\nDefinition:\n{string_definition}\nSynonyms: {', '.join(synonyms)}\nAntonyms: {', '.join(antonyms)}",
-    }
 
 def main():
     try:
         new_words_url = "https://raw.githubusercontent.com/manh-td/new-words/refs/heads/main/words.txt"
         response = requests.get(new_words_url)
+        response.raise_for_status()
     except requests.RequestException as e:
         raise ValueError(f"Error fetching new words: {e}")
 
-    row = []
+    rows = []
     if response.status_code == 200:
         words = response.text.splitlines()
         for word in words:
             word = word.split(" ")[0].strip()
-            result = search(word)
-            handled_result = handle_search_result(word,result)
-            row.append(handled_result)
+            if not word:
+                continue
+
+            result = query_llm(word)
+            handled_result = handle_llm_result(word, result)
+            if len(handled_result) > 0:
+                rows.append(handled_result)
     else:
         print(f"Error fetching new words: {response.status_code}")
 
     with open("output.csv", mode="w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(file, fieldnames=["column_a", "column_b"])
         writer.writeheader()
-        for r in row:
+        for r in rows:
             if r:
                 writer.writerow(r)
+
+    print("✅ Finished writing to output.csv")
+
 
 if __name__ == "__main__":
     main()
