@@ -3,11 +3,9 @@ import json
 import csv
 from pathlib import Path
 import subprocess
+from .config import *
 
-CACHE_DIR = Path("./cache")
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
-
-def query_llm(word: str, model: str = "phi3:mini") -> dict:
+def query_llm(word: str, model: str = MODEL) -> dict:
     """
     Query a local LLM (via Ollama) for a definition, examples, and synonyms.
     Uses local cache to avoid repeated queries.
@@ -17,26 +15,7 @@ def query_llm(word: str, model: str = "phi3:mini") -> dict:
         with open(cache_path, "r", encoding="utf-8") as f:
             return json.load(f)
 
-    prompt = f"""
-    You are an English dictionary assistant.
-    Define the word "{word}" clearly and concisely.
-    Include:
-    - Part of speech
-    - Phonetic transcription (if known)
-    - Short definition(s)
-    - Two example sentences
-    - Common synonyms and antonyms
-
-    Format your response as pure JSON with keys exactly like this:
-    {{
-      "phonetic": "...",
-      "word_type": "...",
-      "definitions": ["..."],
-      "examples": ["..."],
-      "synonyms": ["..."],
-      "antonyms": ["..."]
-    }}
-    """
+    prompt = PROMPT.format(word=word)
 
     print(f"🧠 Querying LLM for: {word}")
     try:
@@ -44,7 +23,7 @@ def query_llm(word: str, model: str = "phi3:mini") -> dict:
             ["ollama", "run", model, prompt],
             capture_output=True,
             text=True,
-            timeout=30
+            timeout=LLM_TIMEOUT
         )
         output = result.stdout.strip()
 
@@ -89,8 +68,7 @@ def handle_llm_result(word: str, result: dict) -> dict:
 
 def main():
     try:
-        new_words_url = "https://raw.githubusercontent.com/manh-td/new-words/refs/heads/main/words.txt"
-        response = requests.get(new_words_url)
+        response = requests.get(NEW_WORD_URL)
         response.raise_for_status()
     except requests.RequestException as e:
         raise ValueError(f"Error fetching new words: {e}")
@@ -110,7 +88,7 @@ def main():
     else:
         print(f"Error fetching new words: {response.status_code}")
 
-    with open("output.csv", mode="w", newline="", encoding="utf-8") as file:
+    with open(OUTPUT_FILE, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(file, fieldnames=["column_a", "column_b"])
         writer.writeheader()
         for r in rows:
