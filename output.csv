@@ -86,7 +86,30 @@ Antonyms: reject, decline, avoid"
 Examples:
 ","Part of Speech: 
 Definition:
-	1. (Timeout while querying local LLM)
+	1. ```json
+
+{
+    ""phonetic"": ""/ˌsʌkˈɪnktli/"",
+    ""word_type"": ""adverb"",
+    ""definitions"": [
+        ""in a concise and clear manner; using few words.""
+    ],
+    ""examples"": [
+        ""She explained her decision succinctly."",
+        ""He summarized the report succinctly, leaving no room for ambiguity.""
+    ],
+    ""synonyms"": [
+        ""briefly"",
+        ""concisely"",
+tyon""
+    ],
+    ""antonyms"": [
+        ""verbosely"",
+        ""loquaciously""
+    ]
+}
+
+```
 Synonyms: 
 Antonyms: "
 "verbatim /ˈvərˌbeɪtᵊm/
@@ -589,3 +612,37 @@ Definition:
 	2. In physics, atomicity refers to the number of atoms in a molecule.
 Synonyms: indivisibility, atomic-ness
 Antonyms: divisibility, aggregacy"
+"consensus /ˈkɒnsɪsən/
+Examples:
+The committee reached a consensus after much discussion.
+There was no consensus in the room, as opinions varied widely.","Part of Speech: noun
+Definition:
+	1. general agreement among a group of people.
+	2. accord or harmony of opinion on an issue.
+Synonyms: agreement, accord
+Antonyms: dispute, dissension"
+"substantial /ˈsubstrəntʃuːl/
+Examples:
+The company's merger is based on substantial grounds.
+We must decide without delay as the matter at hand is too important to ignore.","Part of Speech: adjective
+Definition:
+	1. relating to important matters, principles, or people: a substantial reason for action.
+Synonyms: considerable, significant
+Antonyms: insignificant"
+"authoritative /ˌætəˈfɪrətʃ(ə)təriz/
+Examples:
+The professor's authoritative tone commanded respect from the students.
+She presented her findings in a very authoritative manner that persuaded everyone to take action.","Part of Speech: adjective
+Definition:
+	1. having or communicating authoritative character, bearing authority and commanding attention by reason of power or knowledge.
+Synonyms: authoritative, commanding, decisive
+Antonyms: inferior, submissive"
+"scarcity /skɑːrˈkɪti/
+Examples:
+Due to the recent drought, water scarcity has become a serious issue for this community.
+Critics argue that economic policies should address resource scarcity more effectively.","Part of Speech: noun
+Definition:
+	1. A state in which something exists in short supply.
+	2. The situation of having insufficient quantity or amount; want.
+Synonyms: shortage, lack
+Antonyms: abundance, plenty"
