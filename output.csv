@@ -16,47 +16,6 @@ Definition:
 	2. A feeling of good fortune; the state resulting from this.
 Synonyms: fortune, propitiousness
 Antonyms: unluckiness"
-"duck 
-Examples:
-","Part of Speech: 
-Definition:
-	1. ```json
-{
-    ""phonetic"": ""[duh-k]"",
-    ""word_type"": ""noun, verb"",
-    ""definitions"": [
-        {
-            ""definition1"": ""A waterbird with a broad blunt bill, short legs and webbed feet.""
-        },
-        {
-            ""definition2"": ""To lower the head or body quickly to avoid being seen; move in a low manner designed for concealment from predators.""
-        }
-    ],
-    ""examples"": [
-        {
-            ""example1"": ""The mother duck waddled across the lawn with her ducklings following closely behind.""
-        },
-        {
-            ""example2"": ""While crossing through the park, he had to quickly duck as a bicyclist came speeding past.""
-        }
-    ],
-    ""synonyms"": [
-        {
-            ""synonym1"": ""dabbling bird""
-        },
-        {
-            ""synonym2"": ""waterfowl""
-        }
-    ],
-    ""antonyms"": [
-        {
-            ""antonym1"": ""Elevation"", since ducks lower themselves to avoid detection.
-        }
-    ]
-}
-```
-Synonyms: 
-Antonyms: "
 "sanitize /ˈseɪnɪˌlaɪz/
 Examples:
 The hospital's policy requires all patients to have their hands sanitized before entering.
@@ -82,36 +41,13 @@ Definition:
 	1. to choose or decide; exercise choice
 Synonyms: choose, select, pick
 Antonyms: reject, decline, avoid"
-"succinctly 
+"succinctly /ˌsʌkˈɪnktli/
 Examples:
-","Part of Speech: 
+She succinctly summarized the main points of her presentation.","Part of Speech: adverb
 Definition:
-	1. ```json
-
-{
-    ""phonetic"": ""/ˌsʌkˈɪnktli/"",
-    ""word_type"": ""adverb"",
-    ""definitions"": [
-        ""in a concise and clear manner; using few words.""
-    ],
-    ""examples"": [
-        ""She explained her decision succinctly."",
-        ""He summarized the report succinctly, leaving no room for ambiguity.""
-    ],
-    ""synonyms"": [
-        ""briefly"",
-        ""concisely"",
-tyon""
-    ],
-    ""antonyms"": [
-        ""verbosely"",
-        ""loquaciously""
-    ]
-}
-
-```
-Synonyms: 
-Antonyms: "
+	1. {'definition1': 'in a clear and compact manner; briefly, in few words'}
+Synonyms: concisely, briefly
+Antonyms: verbosely"
 "verbatim /ˈvərˌbeɪtᵊm/
 Examples:
 She quoted the article 'verbatim', so I could easily reference it.
@@ -120,47 +56,6 @@ Definition:
 	1. exactly as stated or written; without change.
 Synonyms: word for word, exactly as stated
 Antonyms: paraphrased, liberally interpreted without exact replication"
-"Prima-facie 
-Examples:
-","Part of Speech: 
-Definition:
-	1. ```json
-
-{
-    ""phonetic"": ""/ˈpraɪməfɪə/,"",
-    ""word_type"": ""adjective, noun (as a legal term)"",
-    ""definitions"": [
-        {""definition"": ""Apparent on the face of it; presumptively sufficient.""},
-        {
-            ""definition"": ""In law: evidence or testimony that appears to justify a verdict without further investigation."",
-            ""part_of_speech"": ""adjective""
-        },
-        {
-            ""definition"": ""A case prima facie is one in which the facts are sufficient to establish each party'ths claim unless rebutted by contrary evidence at trial.""
-            ""part_of_speech"": ""noun"",
-            ""example"": ""The defendant had no defense; it was a clear case of battery, prima facie""
-        }
-    ],
-    ""examples"": [
-        {""sentence"": ""There is enough evidence to make the charge seem prima facie.""},
-        {
-            ""sentence"": ""Despite his denials, there were facts that established it as a clear case of malice."",
-            ""part_of_speech"": ""noun""
-        }
-    ],
-    ""synonyms"": [
-        {""word"": ""apparent"", ""example_usage"": """"},
-        {
-            ""word"": ""self-evident"", 
-            ""example_usage"": ""The situation appeared self-evidently wrong.""
-        }
-    ],
-    ""antonyms"": [""incontrovertible""]
-}
-
-```
-Synonyms: 
-Antonyms: "
 "hyperedge /ˌhaɪpəˈreid/
 Examples:
 The resulting subgraph contained several triplets and quadruplets of friends as well as complex hyperedges.
@@ -178,76 +73,6 @@ Definition:
 	2. the action of making a mathematical expression more complex by adding extra terms within it.
 Synonyms: complication, confusion
 Antonyms: clarification, simplification"
-"multilateral 
-Examples:
-","Part of Speech: 
-Definition:
-	1. ```json
-{
-    ""phonetic"": ""/ˌmʌltɪˈleɪtərəl/"",
-    ""word_type"": ""adjective"",
-    ""definitions"": [
-        ""involving more than two nations or groups of nations, especially in a political context""
-    ],
-    ""examples"": [
-        ""The multilateral treaty was signed by representatives from over 50 countries."",
-        ""A summit for discussing environmental policies has been scheduled as an effort towards multilateral cooperation.""
-    ],
-    ""synonyms"": [
-        ""international"",
-        ""collaborative""
-    ],
-    ""antonyms"": [
-        ""unilateral""
-Synonyms: 
-Antonyms: "
-"analogous 
-Examples:
-","Part of Speech: 
-Definition:
-	1. ```json
-{
-  ""phonetic"": ""/ˌæn.əˈloʊ.ɡə.nəs/"",
-  ""word_type"": ""adjective"",
-  ""definitions"": [
-    ""having or relating to a resemblance; similar in character"".
-  ],
-  ""examples"": [""The way birds migrate is analogous to how some fish move."", ""Her singing style has an analogous quality of emotional expression.""],
-  ""synonyms"": [
-    ""similar"",
-    ""likewise""
-  ],
-  ""antonyms"": [
-    ""dissimilar"",
-    ""unrelated""
-  ]
-}
-```
-Synonyms: 
-Antonyms: "
-"intricate 
-Examples:
-","Part of Speech: 
-Definition:
-	1. {
-   ""phonetic"":""ˈɪntrɪktɪk"",
-   ""word_type"":""adjective"",
-   ""definitions"":[
-       ""consisting of or having many interrelated parts; banded together."",
-       
-      ],
-   ""examples"":[""The intricate lacework was a testament to her skill as an artisan."",""He spent hours tracing the fine lines and patterns on each card, amazed by its complexity.""],
-   ""synonyms"":[
-       ""complicated"",
-       
-      ],
-   ""antonyms"":[
-       ""simple""
-   
-      ]
-}
-Synonyms: 
-Antonyms: "
 "subservience /ˌsʌɪbzəˈvɪʒ(ə)n/
 Examples:
 The servant showed his complete *subservience* to the wealthy landowner.
@@ -264,61 +89,6 @@ Definition:
 	1. to express grief or sorrow over (something).
 Synonyms: regret, mourn
 Antonyms: celebrate"
-"dreading 
-Examples:
-","Part of Speech: 
-Definition:
-	1. {
-  ""phonetic"": ""/dreɪdʒɪŋ/"",
-  ""word_type"": ""verb"",
-  ""definitions"": [
-    ""to feel fear or anxiety about (something that is going to happen)"".
-  ],
-  ""examples"": [""I am dreading my doctor's appointment."", ""She dreaded the thought of public speaking.""],
-  ""synonyms"": [""fearing"", ""apprehending""],
-  ""antonyms"": [""anticipating with excitement"", ""looking forward to""]
-}
-Synonyms: 
-Antonyms: "
-"cynics 
-Examples:
-","Part of Speech: 
-Definition:
-	1. ```json
-{
-    ""phonetic"": ""/ˈsaɪ.nɪks/"",
-    ""word_type"": ""Noun, Plural"",
-    ""definitions"": [
-        ""People who believe that human motives are primarily or often self-interested rather than altruistic.""
-    ],
-    ""examples"": [""The old man was a cynic and believed no one ever helped him."", ""Cynics would argue that charity events were just for show.""],
-    ""synonyms"": [
-        ""Skeptics"",
-        ""Pessimists""
-    ],
-    ""antonyms"": [
-        ""Optimists"",
-thrilled to see the cat finally catching its prey after a long chase. The hunter watched with amusement, knowing that even cynics have moments of joy."" Laughter filled the air as friends gathered around, sharing stories and smiles despite their differing outlooks on life._cynicism is such an inexhaustible wellspring for comedy."",
-    ""examples"": [
-        {
-            ""sentence"": ""The critic was a cynic who doubted the sincerity of every artist's intentions.""
-        },
-        {
-            ""sentence"": ""Her friends often tried to cheer her up, but she remained unconvinced that kindness existed in people beyond self-interest.""
-        }
-    ],
-    ""synonyms"": [
-        ""Skeptic"",
-        ""Pessimist""
-    ],
-    ""antonyms"": [
-        ""Optimist"",
-        ""Mutualism believer""
-    ]
-}
-```
-Synonyms: 
-Antonyms: "
 "conducive /ˈkɒndjuːəsf/
 Examples:
 Having family dinners every night is very conducive to building strong relationships.
@@ -353,31 +123,6 @@ Definition:
 	2. An addition to one' end of a sequence.
 Synonyms: purchase, incorporation, admission
 Antonyms: loss, divestment, dispossession"
-"detriments 
-Examples:
-","Part of Speech: 
-Definition:
-	1. ```json
-{
-    ""phonetic"": ""/dɪˈtrimənts/"",
-    ""word_type"": ""noun"",
-    ""definitions"": [
-        ""Negative effects or disadvantages""
-    ],
-    ""examples"": [
-        ""The new tax law had several economic detriments."",
-        ""She was concerned about the potential health risks, which were significant drawbacks of moving to a highly polluted city.""
-    ],
-    ""synonyms"": [
-        ""disadvantages"", 
-        ""setbacks"", 
-destabilize""
-    ],
-    ""antonyms"": [""benefits"", ""advancements""]
-}
-```
-Synonyms: 
-Antonyms: "
 "unalienable /ˌʌn.əˈliː.i.ə.b(ə)l/
 Examples:
 The right to free speech is an unalienable freedom.
@@ -394,15 +139,6 @@ Definition:
 	1. remarkably bold; extremely daring or fearless
 Synonyms: bold, daring, brave, risky
 Antonyms: timid, cowardly, meek, shy"
-"rally /ˈreɪəli/, /ˈrælli/
-Examples:
-They organized a political rally in the city square last weekend.
-After losing his job, he took part in a corporate survival rally to regain confidence.","Part of Speech: verb and noun
-Definition:
-	1. {'definition1': 'a gathering or demonstration in which people express a political, social, or moral opinion.'}
-	2. {'definition2': ""an act of rallying (someone) to support one'self after having failed; an attempt at self-recovery and determination.""}
-Synonyms: assembly, meeting
-Antonyms: dismissal, desertion"
 "dizzying /ˈdaɪzliːŋ/
 Examples:
 The dizzying heights of the roller coaster left riders feeling nauseous.
@@ -411,38 +147,6 @@ Definition:
 	1. causing a spinning sensation or confusion; disoriented.
 Synonyms: dizziness-inducing, overwhelming
 Antonyms: steady, reassuring"
-"insidious 
-Examples:
-","Part of Speech: 
-Definition:
-	1. ```json
-
-{
-    ""phonetic"": ""/ˌɪnsaɪˈdɪʃuəs/"",
-    ""word_type"": ""adjective"",
-    ""definitions"": [
-        ""treacherous; secretly harmful or destructive""
-    ],
-    ""examples"": [
-        ""The insidious spread of the disease was alarming."",
-        ""His plans were so cunning and deceptive.""
-    ],
-    ""synonyms"": [
-        ""treacherous"",
-        ""deceitful"",
-intrusive,
-        ""subtle""
-    ],
-    ""antonyms"": [
-        ""innocuous"",
-        ""harmless"",
-        ""beneficial""
-    ]
-}
-
-```
-Synonyms: 
-Antonyms: "
 "primacy /ˈprɪməsi/
 Examples:
 The student's argument gained primacy after the professor cited several studies.
@@ -516,50 +220,6 @@ Definition:
 	1. marked by bright colors or strong emotional sincerity: 'A vibrant city full of life and energy.'
 Synonyms: bright, lively, colorful
 Antonyms: dull, flat"
-"stringent 
-Examples:
-","Part of Speech: 
-Definition:
-	1. ```json
-
-{
-
-    ""phonetic"": ""/string-zent/"",
-
-    ""word_type"": ""adjective"",
-
-    ""definitions"": [
-
-        ""imposing strict requirements or demands; rigorous""
-
-    ],
-
-    ""examples"": [
-
-        ""The company implemented stringent safety protocols."",
-
-        ""She received a fine for violating the traffic rules, which were quite stringent.""
-
-    ],
-
-    ""synonyms"": [
-
-        ""rigorous"", 
-
-        ""exacting"", 
-
-        ""demanding""
-
-    ],
-
-    ""antonyms"": [
-
-        ""lax"", 
-
-        ""lenient"", 
-nervously, I am in need of assistance formulating a comprehensive research proposal that examines the impact of social media usage on academic performance among high school students. The study should be longitudinal and incorporate both qualitative and quantitative methods with appropriate data collection techniques such as surveys and interviews along with statistical analysis like regression models to identify correlations or causations between variables. This complex proposal must take into account the ethical considerations of researching minors, include a detailed literature review section that synthesizes previous findings while highlighting gaps my study will fill, propose an innovative methodology for engaging with participants and ensuring data reliability despite potential technological limitations in their environment. Furthermore, it should also outline the expected challenges during this research period such as attrition rates or consent issues due to parental concerns about social media exposure while offering strategic solutions to mitigate these problems without compromising on study integrity. Include a realistic timeline and budget projection that aligns with academic standards for funding proposals, ensuring the inclusion of justifiable expenses such as incentives for participants or costs related to securing digital consent forms from parents/guardians while keeping within reason given my university's modest grant offerings. Also provide potential avenues for dissemination that will reach educational stakeholders and contribute meaningfully to the academic community, considering open-access journals as well as conferences with active discourse on education technology ethics
-Synonyms: 
-Antonyms: "
 "portfolio /ˈpɔr.tjə.foʊ/
 Examples:
 The writer proudly displayed her portfolio during the conference to showcase her poetry and essays.
@@ -655,17 +315,10 @@ Definition:
 	2. Following traditional norms and patterns.
 Synonyms: traditional, normal
 Antonyms: unconventional"
-"paramount 
+"paramount /ˌpær.əˈmaʊn.t/
 Examples:
-","Part of Speech: 
+The paramount concern for the company's management is profitability.","Part of Speech: adjective and noun
 Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
-"rubric 
-Examples:
-","Part of Speech: 
-Definition:
-	1. (Timeout while querying local LLM)
-Synonyms: 
-Antonyms: "
+	1. {'definition': 'of greater importance or rank; higher in rank'}
+Synonyms: primary, most important
+Antonyms: inferior, negligible"
