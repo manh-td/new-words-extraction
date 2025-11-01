@@ -17,7 +17,7 @@ Format your response as pure JSON with keys exactly like this:
 {{
     "phonetic": "...",
     "word_type": "...",
-    "definitions": ["..."],
+    "definitions": "...",
     "examples": ["..."],
     "synonyms": ["..."],
     "antonyms": ["..."]
