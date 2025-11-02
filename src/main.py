@@ -1,7 +1,6 @@
 import requests
 import json
 import csv
-from pathlib import Path
 import subprocess
 from .config import *
 
@@ -60,7 +59,7 @@ def handle_llm_result(word: str, result: dict) -> dict:
 
         return {
             "column_a": f"{word} {phonetic}\nExamples:\n{string_example}",
-            "column_b": f"Part of Speech: {word_type}\nDefinition:\n{string_definition}\nSynonyms: {', '.join(synonyms)}\nAntonyms: {', '.join(antonyms)}",
+            "column_b": f"Part of Speech: {word_type}\nDefinition: {string_definition}\nSynonyms: {', '.join(synonyms)}\nAntonyms: {', '.join(antonyms)}",
         }
     except Exception as e:
         return {}
