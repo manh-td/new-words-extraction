@@ -1,0 +1,31 @@
+{
+  "phonetic": "/ˈflʌndər/",
+  "word_type": "verb and noun",
+  "definitions": {
+    "noun": "a flat, cartilaginous fish of the family Pleuronectidae.",
+    "verb": "move or speak clumsily or without certainty."
+  },
+  "examples": [
+    "He floundered through his presentation because he was not prepared",
+    "The codfish tends to roll and look confused when caught, as if it were trying to 'flounder'"
+  ],
+  "synonyms": {
+    "noun": [
+      "puffer fish"
+    ],
+    "verb": [
+      "stumble",
+      "blunder"
+    ]
+  },
+  "antonyms": {
+    "noun": [
+      "halibut",
+      "snapper"
+    ],
+    "verb": [
+      "glide",
+      "maneuvered skillfully"
+    ]
+  }
+}
