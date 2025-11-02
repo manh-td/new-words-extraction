@@ -1,0 +1,25 @@
+{
+  "phonetic": "/ɡuɪz/",
+  "word_type": "noun, verb",
+  "definitions": [
+    {
+      "as_a_noun": "The false appearance or pretense of one thing in place of another.",
+      "as_a_verb": "To appear under a false pretense."
+    }
+  ],
+  "examples": [
+    "In his guise as the charity representative, he worked tirelessly to raise funds."
+  ],
+  "synonyms": [
+    {
+      "noun": "appearance",
+      "verb": "pose"
+    }
+  ],
+  "antonyms": [
+    {
+      "noun": "authenticity",
+      "verb": "reveal honestly"
+    }
+  ]
+}

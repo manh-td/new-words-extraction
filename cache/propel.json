@@ -1,0 +1,24 @@
+{
+  "phonetic": "/prəˈpel/",
+  "word_type": "verb",
+  "definitions": [
+    {
+      "definition1": "to drive forward or onward."
+    },
+    {
+      "definition2": "to make (a machine, rocket, etc.) move."
+    }
+  ],
+  "examples": [
+    "The engine propelled the car down the highway.",
+    "Rockets are designed to be easily propelled into space."
+  ],
+  "synonyms": [
+    "push",
+    "drive forward"
+  ],
+  "antonyms": [
+    "drag",
+    "pull backward"
+  ]
+}
