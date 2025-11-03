@@ -1,0 +1,36 @@
+{
+  "phonetic": "/ˌvɪˈzərʃ(ə)l/",
+  "word_type": "adjective",
+  "definitions": [
+    {
+      "definition": "deep in feeling"
+    },
+    {
+      "definition": "relating to deep instincts or gut reactions."
+    }
+  ],
+  "examples": [
+    "He had a visceral reaction to the horror movie.",
+    "Her love for him was evident through her visceral response when he spoke about his future plans."
+  ],
+  "synonyms": [
+    {
+      "word": "innate",
+      "definition": "natural and inherent"
+    },
+    {
+      "word": "instinctive",
+      "definition": "coming from one's natural inclination or instinct."
+    }
+  ],
+  "antonyms": [
+    {
+      "word": "rational",
+      "definition": "logical and based on reasoning, rather than emotion"
+    },
+    {
+      "word": "dispassionate",
+      "definition": "not influenced by emotions; objective."
+    }
+  ]
+}

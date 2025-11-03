@@ -1,0 +1,34 @@
+{
+  "phonetic": "/ˈnɒtəri/,",
+  "word_type": "noun, verb (as a profession)",
+  "definitions": [
+    {
+      "main": "A public official whose duty it is to authenticate the written language of certain documents.",
+      "variant": [
+        "A person commissioned by law or an authority who certifies copies and translations."
+      ]
+    }
+  ],
+  "examples": [
+    "The notary stamp was required for signing the deed.",
+    "She will act as a document notary today to authenticate important contracts."
+  ],
+  "synonyms": [
+    {
+      "main": "Notary Public",
+      "variant": [
+        "Stamp Verifier"
+      ]
+    }
+  ],
+  "antonyms": [
+    {
+      "main": "Forgery Expert",
+      "variant": []
+    },
+    {
+      "main": "Counterfeiter",
+      "variant": []
+    }
+  ]
+}
