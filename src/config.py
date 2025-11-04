@@ -13,14 +13,19 @@ Include:
 - Two example sentences
 - Common synonyms and antonyms
 
-Format your response as pure JSON with keys exactly like this:
+Ensure that:
+- All fields are strings.
+- Multiple items (e.g., definitions, examples, synonyms, antonyms) are combined into a single string separated by semicolons.
+- The output must be valid JSON and contain *only* the following keys.
+
+Format your response as pure JSON with this exact structure:
 {{
-    "phonetic": "...",
-    "word_type": "...",
-    "definitions": "...",
-    "examples": ["..."],
-    "synonyms": ["..."],
-    "antonyms": ["..."]
+    "phonetic": "string",
+    "word_type": "string",
+    "definitions": "string",
+    "examples": "string",
+    "synonyms": "string",
+    "antonyms": "string"
 }}
 """
 LLM_TIMEOUT = 5 * 60

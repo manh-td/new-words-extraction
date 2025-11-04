@@ -50,16 +50,13 @@ def handle_llm_result(word: str, result: dict) -> dict:
         phonetic = result.get("phonetic", "")
         word_type = result.get("word_type", "")
         definitions = result.get("definitions", "")
-        examples = result.get("examples", [])
-        synonyms = result.get("synonyms", [])
-        antonyms = result.get("antonyms", [])
-
-        string_definition = "\n".join([f"\t{i+1}. {d}" for i, d in enumerate(definitions)])
-        string_example = "\n".join(examples)
+        examples = result.get("examples", "")
+        synonyms = result.get("synonyms", "")
+        antonyms = result.get("antonyms", "")
 
         return {
-            "column_a": f"{word} {phonetic}\nExamples:\n{string_example}",
-            "column_b": f"Part of Speech: {word_type}\nDefinition: {string_definition}\nSynonyms: {', '.join(synonyms)}\nAntonyms: {', '.join(antonyms)}",
+            "column_a": f"{word} {phonetic}\nExamples: {examples}",
+            "column_b": f"Part of Speech: {word_type}\nDefinition: {definitions}\nSynonyms: {synonyms}\nAntonyms: {antonyms}",
         }
     except Exception as e:
         return {}
@@ -74,7 +71,7 @@ def main():
 
     rows = []
     if response.status_code == 200:
-        words = response.text.splitlines()
+        words = response.text.splitlines()[:2]
         for word in words:
             word = word.split(" ")[0].strip()
             if not word:
