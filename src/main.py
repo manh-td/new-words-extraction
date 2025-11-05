@@ -3,6 +3,7 @@ import json
 import csv
 import subprocess
 from .config import *
+from .dictionary import get_word_definition
 
 def query_llm(word: str, model: str = MODEL) -> dict|None:
     """
@@ -14,9 +15,13 @@ def query_llm(word: str, model: str = MODEL) -> dict|None:
         with open(cache_path, "r", encoding="utf-8") as f:
             return json.load(f)
 
-    prompt = PROMPT.format(word=word)
+    dictionary=get_word_definition(word)
+    if "error" in dictionary:
+        return None
+    
+    prompt = PROMPT.format(dictionary=json.dumps(dictionary, indent=4))
+    print(prompt)
 
-    print(f"🧠 Querying LLM for: {word}")
     try:
         result = subprocess.run(
             ["ollama", "run", model, prompt],
@@ -25,6 +30,7 @@ def query_llm(word: str, model: str = MODEL) -> dict|None:
             timeout=LLM_TIMEOUT
         )
         output = result.stdout.strip()
+        print(output)
 
         # Try to extract JSON safely
         try:
