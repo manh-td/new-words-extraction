@@ -1,0 +1,50 @@
+{
+  "word": "transfixed",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To render motionless, by arousing terror, amazement or awe.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To pierce with a sharp pointed weapon.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To fix or impale.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Rendered motionless by completely focused attention, rapt, entranced, mesmerized.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "enthralled",
+        "entranced",
+        "hypnotized",
+        "mesmerized",
+        "rapt"
+      ],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/transfix",
+    "https://en.wiktionary.org/wiki/transfixed"
+  ]
+}

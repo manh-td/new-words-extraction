@@ -1,0 +1,42 @@
+{
+  "word": "culminating",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "Of a heavenly body, to be at the highest point, reach its greatest altitude.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To reach the (physical) summit, highest point, peak etc.",
+          "synonyms": [
+            "peak"
+          ],
+          "antonyms": []
+        },
+        {
+          "definition": "To reach a climax; to come to the decisive point (especially as an end or conclusion).",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "The class will culminate with a rigorous examination."
+        },
+        {
+          "definition": "To finalize, bring to a conclusion, form the climax of.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "peak"
+      ],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/culminate",
+    "https://en.wiktionary.org/wiki/culminating"
+  ]
+}

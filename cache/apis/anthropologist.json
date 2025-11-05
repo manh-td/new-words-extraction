@@ -1,0 +1,32 @@
+{
+  "word": "anthropologist",
+  "phonetic": "/ˌæn.θɹoʊˈpɑl.ə.d͡ʒɪst/",
+  "phonetics": [
+    {
+      "text": "/ˌæn.θɹoʊˈpɑl.ə.d͡ʒɪst/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/anthropologist-us.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1769294",
+      "license": {
+        "name": "BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "One who is versed in anthropology.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/anthropologist"
+  ]
+}

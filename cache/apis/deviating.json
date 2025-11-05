@@ -1,0 +1,38 @@
+{
+  "word": "deviating",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To go off course from; to change course; to change plans.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To fall outside of, or part from, some norm; to stray.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "His exhibition of nude paintings deviated from the norm."
+        },
+        {
+          "definition": "To cause to diverge.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "swerve",
+        "veer",
+        "stray",
+        "wander"
+      ],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/deviate",
+    "https://en.wiktionary.org/wiki/deviating"
+  ]
+}

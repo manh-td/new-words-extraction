@@ -1,0 +1,33 @@
+{
+  "word": "rekindled",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To kindle again.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To be kindled or ignited again.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To revive.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "After being abroad for a decade, when he came back he rekindled his obsession with cricket."
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/rekindle",
+    "https://en.wiktionary.org/wiki/rekindled"
+  ]
+}

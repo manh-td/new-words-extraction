@@ -1,0 +1,33 @@
+{
+  "word": "elitist",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "(usually derogatory) Someone who believes in or is perceived as believing in rule by an elite group.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Of or relating to elitism.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/elitist"
+  ]
+}

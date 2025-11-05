@@ -1,0 +1,54 @@
+{
+  "word": "geodesic",
+  "phonetic": "/ˌd͡ʒiːəˈdiːsɪk/",
+  "phonetics": [
+    {
+      "text": "/ˌd͡ʒiːəˈdiːsɪk/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "The shortest line between two points on a specific surface.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "(spherical geometry) A segment of a great circle.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "A course allowing the parallel-transport of vectors along a course that causes tangent vectors to remain tangent vectors throughout that course (a straight curve, a line that is straight).",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Of or relating to geodesy.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Of or relating to a geodesic dome.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/geodesic"
+  ]
+}

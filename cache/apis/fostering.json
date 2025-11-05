@@ -1,0 +1,65 @@
+{
+  "word": "fostering",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To nurture or bring up offspring, or to provide similar parental care to an unrelated child.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To cultivate and grow something.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "Our company fosters an appreciation for the arts."
+        },
+        {
+          "definition": "To nurse or cherish something.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To be nurtured or trained up together.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "hinder"
+      ]
+    },
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "Raising someone to be an accepted member of the community.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Encouragement; aiding the development of something",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "breeding",
+        "bringing up",
+        "fosterage",
+        "nurture",
+        "raising",
+        "rearing",
+        "upbring"
+      ],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/foster",
+    "https://en.wiktionary.org/wiki/fostering"
+  ]
+}

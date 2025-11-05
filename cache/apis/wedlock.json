@@ -1,0 +1,38 @@
+{
+  "word": "wedlock",
+  "phonetic": "/ˈwɛd.lɒk/",
+  "phonetics": [
+    {
+      "text": "/ˈwɛd.lɒk/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "The state of being married.",
+          "synonyms": [
+            "marriage",
+            "matrimony"
+          ],
+          "antonyms": []
+        },
+        {
+          "definition": "A wife; a married woman.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "marriage",
+        "matrimony"
+      ],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/wedlock"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "word": "bleaker",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Without color; pale; pallid.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Desolate and exposed; swept by cold winds.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "A bleak and bare rock."
+        },
+        {
+          "definition": "Unhappy; cheerless; miserable; emotionally desolate.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "A bleak future is in store for you."
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/bleak",
+    "https://en.wiktionary.org/wiki/bleaker"
+  ]
+}

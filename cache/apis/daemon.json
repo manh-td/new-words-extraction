@@ -1,0 +1,56 @@
+{
+  "word": "daemon",
+  "phonetic": "/ˈdiː.mən/",
+  "phonetics": [
+    {
+      "text": "/ˈdiː.mən/",
+      "audio": ""
+    },
+    {
+      "text": "/ˈdiː.mən/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "An evil supernatural spirit.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "A neutral supernatural spirit.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Someone with great strength, passion or skill for a particular activity, pursuit etc.; an enthusiast.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "He’s a demon at the card tables."
+        },
+        {
+          "definition": "A form of patience (known as Canfield in the US).",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Any of various hesperiid butterflies of the genera Notocrypta and Udaspes.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "genius",
+        "tutelary deity"
+      ],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/daemon",
+    "https://en.wiktionary.org/wiki/demon"
+  ]
+}

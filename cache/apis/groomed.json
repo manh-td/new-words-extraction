@@ -1,0 +1,65 @@
+{
+  "word": "groomed",
+  "phonetic": "/ɡɹuːmd/",
+  "phonetics": [
+    {
+      "text": "/ɡɹuːmd/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To attend to one's appearance and clothing.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To care for (horses or other animals) by brushing and cleaning them.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To prepare (someone) for election or appointment.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To prepare (a ski slope) for skiers by packing down the snow.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To attempt to gain the trust of (somebody, especially a minor) with the intention of subjecting them to abusive or exploitative behaviour such as sexual abuse or human trafficking.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "In agile software development, to review and prioritize the items in the development backlog.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Having a neat and clean appearance; well cared-for.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/groom",
+    "https://en.wiktionary.org/wiki/groomed"
+  ]
+}

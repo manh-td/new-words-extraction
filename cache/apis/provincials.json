@@ -1,0 +1,32 @@
+{
+  "word": "provincials",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "A person belonging to a province; one who is provincial.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "A monastic superior, who, under the general of his order, has the direction of all the religious houses of the same fraternity in a given district, called a province of the order.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "A country bumpkin.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/provincial",
+    "https://en.wiktionary.org/wiki/provincials"
+  ]
+}

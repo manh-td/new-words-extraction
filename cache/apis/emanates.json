@@ -1,0 +1,28 @@
+{
+  "word": "emanates",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To come from a source; issue from.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "Fragrance emanates from flowers."
+        },
+        {
+          "definition": "To send or give out; manifest.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/emanate",
+    "https://en.wiktionary.org/wiki/emanates"
+  ]
+}

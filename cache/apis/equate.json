@@ -1,0 +1,46 @@
+{
+  "word": "equate",
+  "phonetic": "/ɪˈkweɪt/",
+  "phonetics": [
+    {
+      "text": "/ɪˈkweɪt/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "A statement in assembly language that defines a symbol having a particular value.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To consider equal or equivalent.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To set as equal.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "differentiate"
+      ]
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/equate"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "word": "flounder",
+  "phonetic": "/ˈflaʊndɚ/",
+  "phonetics": [
+    {
+      "text": "/ˈflaʊndɚ/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/flounder-us.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=556917",
+      "license": {
+        "name": "BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "A European species of flatfish having dull brown colouring with reddish-brown blotches; fluke, European flounder, Platichthys flesus.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Any of various flatfish of the family Pleuronectidae or Bothidae.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "A bootmaker's tool for crimping boot fronts.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/flounder"
+  ]
+}

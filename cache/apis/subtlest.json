@@ -1,0 +1,65 @@
+{
+  "word": "subtlest",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Hard to grasp; not obvious or easily understood; barely noticeable.",
+          "synonyms": [],
+          "antonyms": [
+            "simple"
+          ],
+          "example": "The difference is subtle, but you can hear it if you listen carefully."
+        },
+        {
+          "definition": "(of a thing) Cleverly contrived.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "(of a person or animal) Cunning, skillful.",
+          "synonyms": [
+            "crafty",
+            "cunning",
+            "skillful"
+          ],
+          "antonyms": []
+        },
+        {
+          "definition": "Insidious.",
+          "synonyms": [
+            "deceptive",
+            "malicious"
+          ],
+          "antonyms": []
+        },
+        {
+          "definition": "Tenuous; rarefied; of low density or thin consistency.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Refined; exquisite.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "crafty",
+        "cunning",
+        "skillful",
+        "deceptive",
+        "malicious"
+      ],
+      "antonyms": [
+        "simple"
+      ]
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/subtle",
+    "https://en.wiktionary.org/wiki/subtlest"
+  ]
+}

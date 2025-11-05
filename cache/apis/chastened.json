@@ -1,0 +1,54 @@
+{
+  "word": "chastened",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To punish (in order to bring about improvement in behavior, attitude, etc.); to restrain, moderate.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To make chaste; to purify.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To punish or reprimand for the sake of improvement; to discipline.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To render humble or restrained; to restrain or moderate.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Made chaste; purified; modest.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Chastised.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/chasten",
+    "https://en.wiktionary.org/wiki/chastened"
+  ]
+}

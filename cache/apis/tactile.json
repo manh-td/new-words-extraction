@@ -1,0 +1,38 @@
+{
+  "word": "tactile",
+  "phonetic": "/ˈtæktaɪl/",
+  "phonetics": [
+    {
+      "text": "/ˈtæktaɪl/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tactile-uk.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=503468"
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Tangible; perceptible to the sense of touch.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Used for feeling.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Of or relating to the sense of touch.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/tactile"
+  ]
+}
