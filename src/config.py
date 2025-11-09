@@ -2,26 +2,28 @@ from pathlib import Path
 
 CACHE_DIR = Path("./cache")
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
-MODEL = "phi3:mini"
-PROMPT = """
-You are an English dictionary assistant.
-You are given a JSON dictionary entry as context, containing fields about a word.
+MODEL = "gpt-oss:20b"
+PROMPT = """You are an English dictionary assistant.
+
+You are provided with a JSON dictionary entry containing information about the word "{word}".
 
 Context (from Free Dictionary API):
 {dictionary}
 
 Your task:
-- Review the given data carefully.
-- Use **only** the information available in the dictionary entry as your primary source.
-- If a field in the output is missing or empty in the context, infer or fill it in briefly and plausibly based on general English knowledge.
-- If a field is already present and complete, preserve its content faithfully without rewriting it.
+Extract and complete the following fields for the given word:
+- phonetic
+- word_type
+- definitions
+- examples
+- synonyms
+- antonyms
 
-Output requirements:
-- Include these exact fields: phonetic, word_type, definitions, examples, synonyms, antonyms.
-- Each field must be a string.
-- Multiple items (e.g., definitions, examples, synonyms, antonyms) must be joined into a single string separated by semicolons.
-- Ensure the output is valid JSON and contains *only* the specified keys.
-- Do not include explanations, reasoning, or extra text — output pure JSON only.
+Output instructions:
+- Return **only** a valid JSON object containing exactly these six fields.
+- Each field value must be a non-empty string.
+- If a field contains multiple items (e.g., multiple definitions, examples, synonyms, or antonyms), join them into a single string separated by semicolons.
+- Do **not** include any explanations, reasoning, or extra text — output the JSON object only.
 
 Output format:
 {{

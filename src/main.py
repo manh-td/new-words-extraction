@@ -19,8 +19,7 @@ def query_llm(word: str, model: str = MODEL) -> dict|None:
     if "error" in dictionary:
         return None
     
-    prompt = PROMPT.format(dictionary=json.dumps(dictionary, indent=4))
-    print(prompt)
+    prompt = PROMPT.format(word=word, dictionary=json.dumps(dictionary, indent=4))
 
     try:
         result = subprocess.run(
@@ -30,7 +29,6 @@ def query_llm(word: str, model: str = MODEL) -> dict|None:
             timeout=LLM_TIMEOUT
         )
         output = result.stdout.strip()
-        print(output)
 
         # Try to extract JSON safely
         try:
