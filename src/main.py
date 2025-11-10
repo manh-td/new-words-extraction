@@ -23,7 +23,9 @@ def infer_llm(prompt: str, model: str = MODEL) -> str:
         if cache_path.exists():
             with open(cache_path, "r", encoding="utf-8") as f:
                 cached_data = json.load(f)
-            return cached_data.get("response", "")
+                response = cached_data.get("response", "")
+                response = response.split("\n...done thinking.\n\n")[-1]
+            return response
 
         # If not cached, call the model
         print(f"[LLM RUN] {prompt}")
@@ -34,6 +36,7 @@ def infer_llm(prompt: str, model: str = MODEL) -> str:
             timeout=LLM_TIMEOUT
         )
         output = result.stdout.strip()
+        output = output.split("\n...done thinking.\n\n")[-1]
 
         # Save response to cache
         with open(str(cache_path), "w", encoding="utf-8") as f:
@@ -64,7 +67,7 @@ def query_llm(word:str, dictionaries: list[str]) -> dict|None:
                     dictionary[key] = response
             if key == "synonyms" and value == "":
                 prompt = PROMPTS["synonyms"].format(word=word, part_of_speech=dictionary["part_of_speech"])
-
+                response = infer_llm(prompt)
                 if response:
                     dictionary[key] = response
             if key == "antonyms" and value == "":

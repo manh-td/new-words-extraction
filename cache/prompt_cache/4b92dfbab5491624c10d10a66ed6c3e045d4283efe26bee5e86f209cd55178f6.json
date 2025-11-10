@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"eroded\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "- The ancient ruins showed signs of severe erosion.\n- Years of rain can lead to significant soil erosion on hilly terrain."
-}

@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"commodity\"(noun).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "Commodities trading is booming globally.; A barrel of crude oil can be considered a commodity."
-}

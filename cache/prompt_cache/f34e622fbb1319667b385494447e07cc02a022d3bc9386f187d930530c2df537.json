@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"fostering\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "A long-term foster family is committed to caring for children until they can reunite with their biological parents.  \nChildren in need often find temporary homes through fostering systems while awaiting permanent placement."
-}

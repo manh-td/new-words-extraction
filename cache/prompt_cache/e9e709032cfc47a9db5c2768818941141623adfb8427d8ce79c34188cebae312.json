@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"lucrative\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "He invested his money into a lucrative business venture. ; The opportunity seemed too good not to be lucrative."
-}

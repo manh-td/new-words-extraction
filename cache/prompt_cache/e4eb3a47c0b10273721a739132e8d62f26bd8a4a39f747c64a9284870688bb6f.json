@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"barnacles\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "The barnacles were clinging stubbornly to the hull of the ship.\nBarnacles often attach themselves to rocks along the shoreline during low tide."
-}

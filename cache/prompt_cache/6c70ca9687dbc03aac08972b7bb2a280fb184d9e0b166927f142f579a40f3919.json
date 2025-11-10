@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"wedlock\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "A couple exchanged vows during their wedding ceremony.\nThe young girl's parents spoke highly of her marriage as a union in good wedlock.\n\nanswered by \"In both sentences 'wedlock' is used to describe the legal and socially recognized relationship between two people who are married.\""
-}

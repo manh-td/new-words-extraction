@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"transfixed\"(adjective).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "She stared at him with transfixed eyes. He held her gaze until she could feel his thoughts piercing through hers.\nHe was completely transfixed by the magic trick, unable to tear his eyes away from the illusionist's hands as they made objects levitate and disappear."
-}

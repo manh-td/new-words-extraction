@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"maneuvers\"(verb).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "The fighter pilot executed several complex maneuvers during combat. He mastered various aerial acrobatics to evade enemy fire.; A team of engineers designed innovative city park landscapes with strategic plant placements for maximum aesthetic appeal and minimal maintenance needs, showcasing the artfulness in their urban maneuvers."
-}

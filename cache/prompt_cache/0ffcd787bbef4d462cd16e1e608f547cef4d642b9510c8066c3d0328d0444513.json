@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"secularized\"(verb).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "- The education system has secularized many aspects that were once considered religious mandates.\n- As society secularizes, it increasingly relies on scientific explanations rather than spiritual ones for understanding the world."
-}

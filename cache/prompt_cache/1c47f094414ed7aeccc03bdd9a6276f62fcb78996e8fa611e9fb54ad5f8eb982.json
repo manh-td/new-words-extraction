@@ -1,4 +1,0 @@
-{
-  "prompt": "You are an English dictionary assistant.\nGiven the following word \"uncanny\"(noun).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
-  "response": "I feel an uncanny sense of familiarity with that abandoned house.\nThe way he talks about his deceased wife strikes me as uncanny."
-}
