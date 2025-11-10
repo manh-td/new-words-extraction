@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"chastened\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "He was chastened for his poor behavior at school.  \nShe felt somewhat chastened after her friend pointed out a mistake in her report."
+}

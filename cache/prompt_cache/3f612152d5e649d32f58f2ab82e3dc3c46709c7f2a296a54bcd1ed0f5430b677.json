@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"tactile\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "The texture of these fabrics is best appreciated through touch because they are tactile.\nYou can learn more about a culture by experiencing its food and observing the way people eat with their hands in certain countries where eating with fingers enhances the sensory experience due to the tactile nature of dining practices."
+}

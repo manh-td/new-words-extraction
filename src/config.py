@@ -2,7 +2,7 @@ from pathlib import Path
 
 CACHE_DIR = Path("./cache")
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
-MODEL = "gpt-oss:20b"
+MODEL = "phi3:mini"
 PROMPTS = {
     "part_of_speech": """You are an English dictionary assistant.
 Given the following word "{word}".
@@ -17,7 +17,7 @@ definition 1; definition 2
 
     "examples": """You are an English dictionary assistant.
 Given the following word "{word}".
-Answer only example sentences (maximum 2).
+Answer only short example sentences of how to use the word in English (maximum 2).
 Format your response exactly like this:
 sentence 1; sentence 2
 (no JSON, no explanation).""",

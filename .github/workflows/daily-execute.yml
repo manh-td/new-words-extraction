@@ -34,9 +34,9 @@ jobs:
           sudo systemctl start ollama
           sleep 5  # Give Ollama a few seconds to start
 
-      - name: Pull gpt-oss:20b model
+      - name: Pull phi3:mini model
         run: |
-          ollama pull gpt-oss:20b
+          ollama pull phi3:mini
 
       - name: Run script using Ollama
         run: |

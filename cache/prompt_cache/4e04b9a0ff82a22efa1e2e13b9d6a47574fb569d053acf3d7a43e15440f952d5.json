@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"bleaker\".\nAnswer only **antonyms** (maximum 2). If there are multiple, join them into a single string separated by semicolons (; ).\nRespond with plain text only (no JSON, no explanation).",
+  "response": "brighter; optimistic"
+}

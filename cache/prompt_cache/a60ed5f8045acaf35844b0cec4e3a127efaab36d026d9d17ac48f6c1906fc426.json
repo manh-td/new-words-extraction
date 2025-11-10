@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"bohemian\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "A bohemian living artist found inspiration among graffiti walls. ; A writer's retreat is often chosen for its bohemian atmosphere and tranquility."
+}

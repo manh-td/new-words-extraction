@@ -1,24 +1,52 @@
 import requests
 import csv
 import subprocess
+import hashlib
+import json
+
 from .config import *
 from .dictionary import get_word_definition, process_word_definition
 
-def infer_llm(prompt:str, model:str = MODEL) -> str:
+def infer_llm(prompt: str, model: str = MODEL) -> str:
+    """
+    Runs an LLM query using ollama, with caching based on a hash of the prompt.
+    Cached results are stored in .cache/{hash}.json
+    """
     try:
-        print(prompt)
+        # Generate a unique hash for the prompt and model
+        prompt_id = hashlib.sha256(f"{model}:{prompt}".encode("utf-8")).hexdigest()
+        cache_path = CACHE_DIR / "prompt_cache" 
+        cache_path.mkdir(parents=True, exist_ok=True)
+        cache_path = cache_path / f"{prompt_id}.json"
+
+        # Check cache first
+        if cache_path.exists():
+            with open(cache_path, "r", encoding="utf-8") as f:
+                cached_data = json.load(f)
+            return cached_data.get("response", "")
+
+        # If not cached, call the model
+        print(f"[LLM RUN] {prompt}")
         result = subprocess.run(
             ["ollama", "run", model, prompt],
             capture_output=True,
             text=True,
             timeout=LLM_TIMEOUT
         )
-        print(result.stdout.strip())
-        return result.stdout.strip()
+        output = result.stdout.strip()
+
+        # Save response to cache
+        with open(str(cache_path), "w", encoding="utf-8") as f:
+            json.dump({"prompt": prompt, "response": output}, f, ensure_ascii=False, indent=2)
+
+        print(f"[CACHED] {cache_path}")
+        return output
 
     except subprocess.TimeoutExpired:
+        print("[TIMEOUT] LLM request timed out.")
         return None
     except Exception as e:
+        print(f"[ERROR] infer_llm: {e}")
         return None
 
 def query_llm(word:str, dictionaries: list[str]) -> dict|None:
@@ -27,23 +55,28 @@ def query_llm(word:str, dictionaries: list[str]) -> dict|None:
             if key == "part_of_speech" and value == "":
                 prompt = PROMPTS["part_of_speech"].format(word=word)
                 response = infer_llm(prompt)
-                dictionary[key] = response
+                if response:
+                    dictionary[key] = response
             if key == "definitions" and value == "":
                 prompt = PROMPTS["definitions"].format(word=word)
                 response = infer_llm(prompt)
-                dictionary[key] = response
+                if response:
+                    dictionary[key] = response
             if key == "examples" and value == "":
                 prompt = PROMPTS["examples"].format(word=word)
                 response = infer_llm(prompt)
-                dictionary[key] = response
+                if response:
+                    dictionary[key] = response
             if key == "synonyms" and value == "":
                 prompt = PROMPTS["synonyms"].format(word=word)
                 response = infer_llm(prompt)
-                dictionary[key] = response
+                if response:
+                    dictionary[key] = response
             if key == "antonyms" and value == "":
                 prompt = PROMPTS["antonyms"].format(word=word)
                 response = infer_llm(prompt)
-                dictionary[key] = response
+                if response:
+                    dictionary[key] = response
 
     return dictionaries
 
