@@ -50,9 +50,6 @@ def get_word_definition(word: str):
 
     return data
 
-import json
-from pathlib import Path
-
 def process_word_definition(api_result: dict, max_list: int = 2) -> dict:
     cache_file = CACHE_DIR / "processed_apis"
     cache_file.mkdir(parents=True, exist_ok=True)

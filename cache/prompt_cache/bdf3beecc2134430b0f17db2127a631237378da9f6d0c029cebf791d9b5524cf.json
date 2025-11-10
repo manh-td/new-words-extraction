@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"barnacles\".\nAnswer only **antonyms** (maximum 2). If there are multiple, join them into a single string separated by semicolons (; ).\nRespond with plain text only (no JSON, no explanation).",
+  "response": "- Free from pests and parasites.\n- Pristine condition; untouched beauty."
+}

@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"grain\".\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "The farmer harvested a bountiful grain crop. The bread he makes is all-natural with just flour and water.\n\ngrain of salt in the recipe to enhance flavor without being overpowering; too much can spoil the dish's taste balance."
+}

@@ -97,7 +97,7 @@ def main():
             
             dictionary = get_word_definition(word)
             if "error" in dictionary:
-                return None
+                continue
             
             dictionary = process_word_definition(dictionary)
             results = query_llm(word, dictionary)
