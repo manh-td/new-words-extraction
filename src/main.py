@@ -64,7 +64,7 @@ def query_llm(word:str, dictionaries: list[str]) -> dict|None:
                     dictionary[key] = response
             if key == "synonyms" and value == "":
                 prompt = PROMPTS["synonyms"].format(word=word, part_of_speech=dictionary["part_of_speech"])
-                response = infer_llm(prompt)
+
                 if response:
                     dictionary[key] = response
             if key == "antonyms" and value == "":

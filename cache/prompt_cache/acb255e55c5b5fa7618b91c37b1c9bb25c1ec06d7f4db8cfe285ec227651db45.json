@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"palatable\"(adjective).\nAnswer only **synonyms** (maximum 2). If there are multiple, join them into a single string separated by semicolons (; ).\nRespond with plain text only (no JSON, no explanation).",
+  "response": "Thinking...\nOkay, the user asked for synonyms of \"palatable\" (an adjective). Let me think. Palatable means pleasant to the taste, so synonyms could be things like tasty, delicious, or agreeable. Wait, \"tasty\" is a common synonym. Then \"delicious\" is another one. Are there any others? \"Savory\" comes to mind, but that's more about flavorful. \"Acceptable\" might be closer, but that's more about being acceptable rather than pleasant. So the top two would be tasty and delicious. Let me check if they are commonly accepted. Yes, both are standard synonyms. So the answer should be \"tasty; delicious\".\n...done thinking.\n\ntasty; delicious"
+}

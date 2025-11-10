@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"institutions\"(noun).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "Thinking...\nOkay, the user wants example sentences using the word \"institutions\" as a noun. Let me think of two sentences. First, maybe something about educational institutions. Like, \"The university's institutions include various departments.\" Then another one about government institutions. \"The government's institutions work together to implement policies.\" Wait, should I make sure the sentences are correct? Let me check. Yes, \"institutions\" is a noun here. Alright, that should work.\n...done thinking.\n\nthe university's institutions include various departments; the government's institutions work together to implement policies"
+}

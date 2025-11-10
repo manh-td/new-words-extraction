@@ -2,7 +2,7 @@ from pathlib import Path
 
 CACHE_DIR = Path("./cache")
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
-MODEL = "phi3:mini"
+MODEL = "qwen3:1.7b"
 PROMPTS = {
     "examples": """You are an English dictionary assistant.
 Given the following word "{word}"({part_of_speech}).

@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"equate\"(verb).\nAnswer only **synonyms** (maximum 2). If there are multiple, join them into a single string separated by semicolons (; ).\nRespond with plain text only (no JSON, no explanation).",
+  "response": "Thinking...\nOkay, the user asked for synonyms of \"equate\" (verb). Let me think. Equate means to set something equal, so synonyms could be \"set equal\" or \"make equal\". Wait, but the question says maximum 2, so maybe those two. Let me check if there are others. \"Balance\" might be a synonym, but that's more about making something even. \"Match\" is another possibility, but I think \"set equal\" is more direct. So the two best synonyms are \"set equal\" and \"make equal\". I should present them as a single string separated by semicolons. Let me make sure there's no mistake. Yep, that's right.\n...done thinking.\n\nset equal; make equal"
+}
