@@ -1,0 +1,52 @@
+column_a,column_b
+"commodity /kəˈmɒdəti/
+Examples: Thinking...
+The user says: ""You are an English dictionary assistant. Given the following word 'commodity'. Answer only example sentences (maximum 2). Format your response exactly like this: sentence 1; sentence 2 (no JSON, no explanation).""
+
+So we need to produce up to 2 example sentences for the word commodity. We need to separate sentences with a semicolon. No extra formatting. So we will provide something like: ""The commodity was in high demand during the drought; The government set a price floor for the essential commodity."" That works.
+
+We must not include any extra punctuation. They want exactly like: sentence 1; sentence 2. So a semicolon separating two sentences. Should we have a period after each? The example suggests that the sentences should end with a period? But they didn't specify. They said ""sentence 1; sentence 2"". That might mean we need to write sentence1, then a semicolon, then sentence2. Each sentence could be complete and end with a period. But if we put a period after each, we will have a period before the semicolon? They want ""sentence 1; sentence 2"" exactly. But maybe they expect a semicolon and then space, then next sentence. It may include periods within each sentence. They didn't say no periods. But the format ""sentence 1; sentence 2"" suggests that each sentence ends with a period. So we should put period at the end of each sentence. Example: ""The commodity was in high demand during the drought; The government set a price floor for the essential commodity."" That includes periods? Actually ""The commodity was in high demand during the drought;"" ends with a semicolon not period. Then "" The government set a price floor for the essential commodity."" ends with a period. That seems okay. But we might include periods after each sentence: ""The commodity was in high demand during the drought. The government set a price floor for the essential commodity."" But then that would have a period and a space then next sentence. That is two sentences separated by a space, not a semicolon. They require semicolon. So we need to keep the semicolon as the separator.
+
+Thus produce: ""The commodity was in high demand during the drought; the government set a price floor for the essential commodity."" That uses semicolon. We might also add a period at end of the second sentence. So final: ""The commodity was in high demand during the drought; the government set a price floor for the essential commodity."" That satisfies. It's two sentences separated by a semicolon. No JSON, no explanation.
+...done thinking.
+
+The commodity was in high demand during the drought; the government set a price floor for the essential commodity.","Part of Speech: noun
+Definition: Anything movable (a good) that is bought and sold.; Something useful or valuable.
+Synonyms: Thinking...
+The user: ""You are an English dictionary assistant. Given the following word 'commodity'. Answer only synonyms (maximum 2). If there are multiple, join them into a single string separated by semicolons (;). Respond with plain text only (no JSON, no explanation).""
+
+We need synonyms for commodity. We can provide up to 2 synonyms. For ""commodity"" synonyms: ""product"", ""good"". We can provide ""product;good"". That is two synonyms. That's it.
+...done thinking.
+
+product;good
+Antonyms: Thinking...
+We need antonyms of ""commodity"". ""Commodity"" as noun meaning a basic good that can be traded; but antonym: ""service"" perhaps? But commodities are goods. An antonym might be ""service"" as opposed to a tangible good. Also ""luxury"" maybe? Or ""non-commodity""? Let's see typical dictionary: antonyms for commodity: ""service"". Another might be ""specialty"" or ""unique item"". But up to 2 maximum. So we can list ""service; luxury"". But maybe ""luxury"" is not a direct antonym. Another possibility ""intangible"" or ""service"". I think ""service"" is the main antonym. ""Intangible"" could be used. So we need maximum 2. I'd output: ""service; intangible"". That fits.
+...done thinking.
+
+service; intangible"
+"snub /snʌb/
+Examples: I hope the people we couldn't invite don't see it as a snub.","Part of Speech: noun
+Definition: A deliberate affront or slight.; A sudden checking of a cable or rope.
+Synonyms: Thinking...
+We need synonyms for ""snub"" (verb or noun). Provide maximum 2 synonyms, join with semicolons if multiple. So synonyms: ""insult"", ""reject"". That seems good. Provide ""insult; reject"". Ensure plain text.
+...done thinking.
+
+insult; reject
+Antonyms: Thinking...
+The user: ""You are an English dictionary assistant. Given the following word 'snub'. Answer only antonyms (maximum 2). If there are multiple, join them into a single string separated by semicolons (;). Respond with plain text only (no JSON, no explanation).""
+
+We need antonyms for snub. Snub as noun: insult; as verb: to snub someone. Antonyms: ""embrace, welcome, greet, embrace, honor, compliment, applaud."" Max 2. So choose ""welcome; embrace"" maybe. We must not exceed 2. Provide plain text. No explanation. So output: ""welcome; embrace"" or ""welcome; greet"". I think ""welcome; greet"" are antonyms. Or ""embrace; welcome"". We'll output ""welcome; embrace"".
+
+Let's ensure the output is plain text. Just that line.
+...done thinking.
+
+welcome; embrace"
+"snub /snʌb/
+Examples: He snubbed my offer of help.","Part of Speech: verb
+Definition: To slight, ignore or behave coldly toward someone.; To turn down; to dismiss.
+Synonyms: cut someone cold; cut someone dead
+Antonyms: Thinking...
+We need antonyms for ""snub"". The word ""snub"" can be noun meaning a slight or rejection; verb meaning to snub someone (to ignore, reject). Antonyms: ""welcome"", ""embrace"", ""praise"", ""favor"", ""accept"", ""respect"". Max 2. So choose 2. Could choose ""welcome"" and ""accept"". Or ""embrace"" and ""accept"". Provide semicolon separated. Just plain text. No explanation. Use maximum 2. Let's do ""welcome; accept"".
+...done thinking.
+
+welcome; accept"
