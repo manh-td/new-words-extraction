@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"niche\"(noun).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "The interior designer found a unique niche for my living room. My new blog focuses on finding niches within the health food industry.; both sentences use \"niche\" to describe specialized areas or markets where demand is met with specific products and services."
+}

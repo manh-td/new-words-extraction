@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"obscure\"(adjective).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "The author's intentions behind writing such an obscure piece are unclear.\nDespite his attempt at avant-garde art, the painting remains mysteriously obscure to most viewers."
+}

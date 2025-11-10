@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"institutions\"(noun).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "Institutions often shape social norms and expectations. Educational institutions not only impart knowledge but also cultural values.\ninstitutional reform can lead to significant societal improvements. Government organizations frequently undergo such changes to adapt modern policies."
+}

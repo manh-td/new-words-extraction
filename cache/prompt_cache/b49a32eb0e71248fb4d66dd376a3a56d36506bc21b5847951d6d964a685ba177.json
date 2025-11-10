@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"flounder\"(noun).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "A shrimp hunter floundered as he couldn't find his way back through the muddy marsh.\nAn actor often finds himself feeling like a fish out of water when asked to perform in an unfamiliar style; similarly, sometimes professionals feel they are merely wallowing without proper experience or knowledge at work."
+}

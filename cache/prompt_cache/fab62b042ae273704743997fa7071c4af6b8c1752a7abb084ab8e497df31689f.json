@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"tactile\"(adjective).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "Touching a surface can provide tactile feedback. The artist's sculpture is so detailed that you need to touch it for full appreciation."
+}

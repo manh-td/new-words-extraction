@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"transfixed\"(verb).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "A crowd was transfixed by her powerful performance on stage.\nThey were all staring at their phones until a message about the storm arrived and they looked up in surprise.\n\ntransfixed; startled"
+}

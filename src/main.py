@@ -52,28 +52,23 @@ def infer_llm(prompt: str, model: str = MODEL) -> str:
 def query_llm(word:str, dictionaries: list[str]) -> dict|None:
     for dictionary in dictionaries:
         for key, value in dictionary.items():
-            if key == "part_of_speech" and value == "":
-                prompt = PROMPTS["part_of_speech"].format(word=word)
-                response = infer_llm(prompt)
-                if response:
-                    dictionary[key] = response
             if key == "definitions" and value == "":
-                prompt = PROMPTS["definitions"].format(word=word)
+                prompt = PROMPTS["definitions"].format(word=word, part_of_speech=dictionary["part_of_speech"])
                 response = infer_llm(prompt)
                 if response:
                     dictionary[key] = response
             if key == "examples" and value == "":
-                prompt = PROMPTS["examples"].format(word=word)
+                prompt = PROMPTS["examples"].format(word=word, part_of_speech=dictionary["part_of_speech"])
                 response = infer_llm(prompt)
                 if response:
                     dictionary[key] = response
             if key == "synonyms" and value == "":
-                prompt = PROMPTS["synonyms"].format(word=word)
+                prompt = PROMPTS["synonyms"].format(word=word, part_of_speech=dictionary["part_of_speech"])
                 response = infer_llm(prompt)
                 if response:
                     dictionary[key] = response
             if key == "antonyms" and value == "":
-                prompt = PROMPTS["antonyms"].format(word=word)
+                prompt = PROMPTS["antonyms"].format(word=word, part_of_speech=dictionary["part_of_speech"])
                 response = infer_llm(prompt)
                 if response:
                     dictionary[key] = response

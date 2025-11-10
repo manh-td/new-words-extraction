@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"barnacles\"(verb).\nAnswer only **synonyms** (maximum 2). If there are multiple, join them into a single string separated by semicolons (; ).\nRespond with plain text only (no JSON, no explanation).",
+  "response": "Barnacle - Not applicable as \"barnacles\" is typically not used as a verb. However, if considering the noun form related to marine life or applying it metapsely in language: cling; adhere."
+}

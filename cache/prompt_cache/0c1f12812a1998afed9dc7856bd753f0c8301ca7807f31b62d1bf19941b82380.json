@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"complacency\"(noun).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "She showed complacency about her grades and didn't study for the final exam. She failed without warning.\nThe team leader criticized him for his lack of effort due to a sense of complacency in completing tasks quickly."
+}

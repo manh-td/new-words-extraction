@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"eroded\"(adjective).\nAnswer only **antonyms** (maximum 2). If there are multiple, join them into a single string separated by semicolons (; ).\nRespond with plain text only (no JSON, no explanation).",
+  "response": "replanted; intact\n\nSince \"eroded\" refers to the process of wearing away or being worn down over time and I have provided two antonyms: replanted, which implies restoration back to a non-wear state (though it's not a perfect opposite since plants can naturally erode soil through their roots), and intact, meaning in original condition without wear. However, keep in mind that finding direct opposites for certain adjectives like \"eroded\" might involve stretching the word beyond its usual usage contextually or semantically (e.g., a solid object doesn't typically erode as living things do)."
+}

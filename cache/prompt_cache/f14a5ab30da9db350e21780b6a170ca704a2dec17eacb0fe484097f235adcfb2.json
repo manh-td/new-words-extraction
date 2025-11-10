@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.\nGiven the following word \"geodesic\"(adjective).\nAnswer only short example sentences of how to use the word in English (maximum 2).\nFormat your response exactly like this:\nsentence 1; sentence 2\n(no JSON, no explanation).",
+  "response": "A geodesic dome is a structure that perfectly distributes stress. The curvature of such domes follows a geodesic path to minimize material usage and maximize strength.\nGeodesic principles are applied in architecture worldwide to create efficient structures with minimal surface area for maximal volume capacity, reducing materials while maintaining stability."
+}
