@@ -73,6 +73,12 @@ def query_llm(word:str, dictionaries: list[str]) -> dict|None:
                 if response:
                     dictionary[key] = response
 
+    for dictionary in dictionaries:
+        prompt = PROMPTS["related_forms"].format(word=word, part_of_speech=dictionary["part_of_speech"])
+        response = infer_llm(prompt)
+        if response:
+            dictionary["related_forms"] = response
+
     return dictionaries
 
 def get_word_form(word:str) -> str|None:

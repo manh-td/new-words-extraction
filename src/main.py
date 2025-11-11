@@ -30,7 +30,7 @@ def main():
             for result in results:
                 rows.append({
                     "column_a": f"{word} {result['phonetic']}\nExamples: {result['examples']}",
-                    "column_b": f"Part of Speech: {result['part_of_speech']}\nDefinition: {result['definitions']}\nSynonyms: {result['synonyms']}\nAntonyms: {result['antonyms']}",
+                    "column_b": f"Part of Speech: {result['part_of_speech']}\nDefinition: {result['definitions']}\nSynonyms: {result['synonyms']}\nAntonyms: {result['antonyms']}\nRelated forms: {result['related_forms']}",
                 })
 
     with open(OUTPUT_FILE, mode="w", newline="", encoding="utf-8") as file:
