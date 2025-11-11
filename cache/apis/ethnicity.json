@@ -1,0 +1,42 @@
+{
+  "word": "ethnicity",
+  "phonetic": "/ɛθˈnɪsɪti/",
+  "phonetics": [
+    {
+      "text": "/ɛθˈnɪsɪti/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/ethnicity-us.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1247120",
+      "license": {
+        "name": "BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "The common characteristics of a group of people, especially regarding ancestry, culture, language or national experiences.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "An ethnic group.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "(casual) Race; common ancestry.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/ethnicity"
+  ]
+}

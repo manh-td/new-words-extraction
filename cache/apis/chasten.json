@@ -1,0 +1,52 @@
+{
+  "word": "chasten",
+  "phonetic": "/ˈtʃeɪ.sən/",
+  "phonetics": [
+    {
+      "text": "/ˈtʃeɪ.sən/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/chasten-uk.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=15170705",
+      "license": {
+        "name": "BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "text": "/ˈtʃeɪ.sən/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/chasten-us.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=13665659"
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To punish (in order to bring about improvement in behavior, attitude, etc.); to restrain, moderate.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To make chaste; to purify.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To punish or reprimand for the sake of improvement; to discipline.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To render humble or restrained; to restrain or moderate.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/chasten"
+  ]
+}

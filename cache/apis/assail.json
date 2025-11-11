@@ -1,0 +1,28 @@
+{
+  "word": "assail",
+  "phonetic": "/əˈseɪl/",
+  "phonetics": [
+    {
+      "text": "/əˈseɪl/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To attack with harsh words or violent force (also figuratively).",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "Muggers assailed them as they entered an alley."
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/assail"
+  ]
+}

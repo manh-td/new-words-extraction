@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.  \nGiven the word \"tact\" (noun), provide up to two antonyms.  \nIf there are multiple, join them into a single string separated by semicolons (;).  \nRespond with plain text only — no explanations or extra text.",
+  "response": "naive; impetuous"
+}

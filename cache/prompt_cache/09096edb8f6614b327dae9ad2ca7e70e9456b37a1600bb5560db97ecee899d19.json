@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.  \nGiven the word \"foster\" (noun), provide up to two synonyms.  \nIf there are multiple, join them into a single string separated by semicolons (;).  \nRespond with plain text only — no explanations or extra text.",
+  "response": "parent; guardian"
+}
