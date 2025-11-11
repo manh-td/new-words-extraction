@@ -78,6 +78,8 @@ def query_llm(word:str, dictionaries: list[str]) -> dict|None:
         response = infer_llm(prompt)
         if response:
             dictionary["related_forms"] = response
+        else:
+            dictionary["related_forms"] = ""
 
     return dictionaries
 
