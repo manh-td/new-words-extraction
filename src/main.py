@@ -14,7 +14,7 @@ def main():
 
     rows = []
     if response.status_code == 200:
-        words = response.text.splitlines()[:5]
+        words = response.text.splitlines()
         for word in words:
             word = word.split(" ")[0].strip()
             if not word:
