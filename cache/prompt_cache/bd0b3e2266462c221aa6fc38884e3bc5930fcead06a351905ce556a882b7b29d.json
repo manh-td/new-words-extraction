@@ -1,0 +1,4 @@
+{
+  "prompt": "You are an English dictionary assistant.  \nGiven the word \"wedlock\" (noun), provide up to 3 related word forms, including inflections, derivatives, or closely related words.  \nDo not include the original word itself in the list.  \nRespond with a single flat list of words in plain text, separated by semicolons (;).  \nDo not include definitions, examples, or any extra text.",
+  "response": "marriage; wedding; marriage ceremony"
+}
