@@ -1,0 +1,102 @@
+{
+  "word": "barnacle",
+  "phonetics": [
+    {
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/barnacle-au.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=79520594",
+      "license": {
+        "name": "BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "text": "/ˈbɑːnəkl̩/",
+      "audio": ""
+    },
+    {
+      "text": "/ˈbɑɹnəkl̩/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "A marine crustacean of the subclass Cirripedia that attaches itself to submerged surfaces such as tidal rocks or the bottoms of ships.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "The barnacle goose.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "In electrical engineering, a change made to a product on the manufacturing floor that was not part of the original product design.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "On printed circuit boards, a change such as soldering a wire in order to connect two points, or addition such as an added resistor or capacitor, subassembly or daughterboard.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "A deprecated or obsolete file, image or other artifact that remains with a project even though it is no longer needed.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "(in the plural) An instrument like a pair of pincers, to fix on the nose of a vicious horse while shoeing so as to make it more tractable.",
+          "synonyms": [
+            "twitch"
+          ],
+          "antonyms": []
+        },
+        {
+          "definition": "(in the plural) A pair of spectacles.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "A good job, or snack easily obtained.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "A worldly sailor.",
+          "synonyms": [
+            "shellback"
+          ],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "shellback",
+        "twitch"
+      ],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To connect with or attach.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To press close against something.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/barnacle"
+  ]
+}

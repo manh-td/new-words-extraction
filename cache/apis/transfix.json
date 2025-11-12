@@ -1,0 +1,40 @@
+{
+  "word": "transfix",
+  "phonetics": [
+    {
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/transfix-1-us.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=794034",
+      "license": {
+        "name": "BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To render motionless, by arousing terror, amazement or awe.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To pierce with a sharp pointed weapon.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To fix or impale.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/transfix"
+  ]
+}
