@@ -20,8 +20,11 @@ def main():
             if not word:
                 continue
             
-            word = get_word_form(word)
             dictionary = get_word_definition(word)
+            if 'phonetic' not in dictionary:
+                word = get_word_form(word)
+                dictionary = get_word_definition(word)
+                
             if "error" in dictionary:
                 continue
             
