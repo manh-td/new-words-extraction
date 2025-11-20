@@ -1,0 +1,18 @@
+[
+  {
+    "phonetic": "/ɔːˈθɒɡənəl/; /ɔɹˈθɑɡənəl/",
+    "part_of_speech": "noun",
+    "definitions": "An orthogonal line",
+    "examples": "",
+    "synonyms": "",
+    "antonyms": ""
+  },
+  {
+    "phonetic": "/ɔːˈθɒɡənəl/; /ɔɹˈθɑɡənəl/",
+    "part_of_speech": "adjective",
+    "definitions": "Of two objects, at right angles; perpendicular to each other.; Of a pair of vectors: having a zero inner product; perpendicular.",
+    "examples": "A chord and the radius that bisects it are orthogonal.; The normal vector and tangent vector at a given point are orthogonal.",
+    "synonyms": "",
+    "antonyms": ""
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "word": "orthogonal",
+  "phonetics": [
+    {
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/orthogonal-au.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=75833515",
+      "license": {
+        "name": "BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "text": "/ɔːˈθɒɡənəl/",
+      "audio": ""
+    },
+    {
+      "text": "/ɔɹˈθɑɡənəl/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/orthogonal-us.mp3",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=694101",
+      "license": {
+        "name": "BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "An orthogonal line",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Of two objects, at right angles; perpendicular to each other.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "A chord and the radius that bisects it are orthogonal."
+        },
+        {
+          "definition": "Of a pair of vectors: having a zero inner product; perpendicular.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "The normal vector and tangent vector at a given point are orthogonal."
+        },
+        {
+          "definition": "Of a square matrix: such that its transpose is equal to its inverse.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Of a linear transformation: preserving its angles.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Of grid graphs, board games and polyominoes: vertical or horizontal but not diagonal.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Of a pair of elements in an ortholattice: each less than or equal to the orthocomplement of the other.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Statistically independent, with reference to variates.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Of two or more aspects of a problem, able to be treated separately.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "The content of the message should be orthogonal to the means of its delivery."
+        },
+        {
+          "definition": "Of two or more problems or subjects, independent of or irrelevant to each other.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/orthogonal"
+  ]
+}
