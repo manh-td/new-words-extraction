@@ -1,0 +1,48 @@
+{
+  "word": "hallmark",
+  "phonetic": "/ˈhɔːlmɑːk/",
+  "phonetics": [
+    {
+      "text": "/ˈhɔːlmɑːk/",
+      "audio": ""
+    },
+    {
+      "text": "/ˈhɔlmɑɹk/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definitions": [
+        {
+          "definition": "A distinguishing characteristic.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "An official marking made by a trusted party, usually an assay office, on items made of precious metals.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To provide or stamp with a hallmark.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/hallmark"
+  ]
+}
