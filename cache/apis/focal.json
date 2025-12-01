@@ -1,0 +1,36 @@
+{
+  "word": "focal",
+  "phonetic": "/ˈfəʊ.kl̩/",
+  "phonetics": [
+    {
+      "text": "/ˈfəʊ.kl̩/",
+      "audio": ""
+    },
+    {
+      "text": "/ˈfoʊ.kl̩/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Belonging to, concerning, or located at a focus",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Limited to a small area",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/focal"
+  ]
+}
