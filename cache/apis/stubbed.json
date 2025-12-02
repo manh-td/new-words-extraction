@@ -1,0 +1,55 @@
+{
+  "word": "stubbed",
+  "phonetics": [],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To remove most of a tree, bush, or other rooted plant by cutting it close to the ground.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To remove a plant by pulling it out by the roots.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "To jam, hit, or bump, especially a toe.",
+          "synonyms": [],
+          "antonyms": [],
+          "example": "I stubbed my toe trying to find the light switch in the dark."
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definitions": [
+        {
+          "definition": "Short and thick, like something truncated; blunt; obtuse.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Abounding in stubs; stubby.",
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "definition": "Not delicate; hardy; rugged.",
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/stub",
+    "https://en.wiktionary.org/wiki/stubbed"
+  ]
+}

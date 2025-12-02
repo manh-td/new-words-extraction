@@ -1,0 +1,50 @@
+{
+  "word": "depicted",
+  "phonetic": "/dɪˈpɪktɪd/",
+  "phonetics": [
+    {
+      "text": "/dɪˈpɪktɪd/",
+      "audio": ""
+    }
+  ],
+  "meanings": [
+    {
+      "partOfSpeech": "verb",
+      "definitions": [
+        {
+          "definition": "To render a representation of something, using words, sounds, images, or other means.",
+          "synonyms": [
+            "depicture",
+            "describe",
+            "draw",
+            "exhibit",
+            "express",
+            "portray",
+            "register",
+            "render",
+            "show",
+            "visualise"
+          ],
+          "antonyms": []
+        }
+      ],
+      "synonyms": [
+        "depicture",
+        "describe",
+        "draw",
+        "exhibit",
+        "express",
+        "portray",
+        "register",
+        "render",
+        "show",
+        "visualise"
+      ],
+      "antonyms": []
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wiktionary.org/wiki/depict",
+    "https://en.wiktionary.org/wiki/depicted"
+  ]
+}
